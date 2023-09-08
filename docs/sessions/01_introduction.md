@@ -107,19 +107,8 @@ Review the  "[syllabus](../index.md)" on the home page of this website for the s
 
 ## Hands-on: Using the Azure Portal
 
-* [Interacting with Azure using the Portal web interface](../exercises/azure_portal_walkthrough.md)
-* [Setting a Budget Alert Using the Azure Portal](budget_alert.md)
-
-<!-- Log into https://portal.azure.com with your MSU NetID
- - confirm you have access to a "resource group"
-     - aside: high level description of "what is a resource group?"  This is kind of like your "cloud locker"
- - understanding the navigation of the Azure portal
-     - resource
-     - properties pane on left side
- - find the 'budgets' section of your resource group
- - edit the budget to add an alert at 50% spend using your preferred email address -->
-
-(../session_how_to_cloud#Activties) activities. 
+1. [Interacting with Azure using the Portal web interface](../exercises/azure_portal_walkthrough.md)
+2. [Setting a Budget Alert Using the Azure Portal](budget_alert.md)
 
 
 ## Questions and Discussion
