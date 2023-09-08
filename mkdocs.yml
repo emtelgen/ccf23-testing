@@ -1,20 +1,8 @@
 site_name: MSU Cloud Computing Fellowship
-nav:
-    - Home: index.md
-    - About: about.md 
-    - Topics: topics/index.md
-    - Contact: contact.md
-    - Project requirement: projects.md  
-    - Cloud References: references/index.md
-    - Cloud Glossary: cloud_glossary.md
-    - Fall 2023 Sessions:
-       - 1. Introduction: sessions/01_introduction.md
-       - 2. How to Cloud: sessions/02_how_to_cloud.md
-       - 3. Cloud Storage: sessions/03_cloud_storage.md
 theme: 
   name: material
   features:
-    - navigation.sections
+    - navigation.tracking
   palette:
     primary: black
 markdown_extensions:
@@ -30,3 +18,15 @@ markdown_extensions:
   - md_in_html
 extra:
   generator: false
+nav:
+  - Syllabus: index.md
+  - About: about.md 
+  - Contact: contact.md
+  - Project requirement: projects.md  
+  - Cloud References: references/index.md
+  - Cloud Glossary: cloud_glossary.md
+  - 'Fall 2023 Sessions':
+    - 1. Introduction: sessions/01_introduction.md
+    - 2. How to Cloud: sessions/02_how_to_cloud.md
+    - 3. Cloud Storage: sessions/03_cloud_storage.md
+  - 'Index of Topics': topics/index.md
