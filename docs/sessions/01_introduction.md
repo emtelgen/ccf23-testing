@@ -91,11 +91,11 @@ Sponsored by ICER, MSU Office of Research and Innovation (ORI), and MSU IT Servi
  
 ### Program Overview
 
-The [syllabus](../index.md)" is the home page of this website and has a detailed schedule.  Keep an eye on this schedule 
+The [syllabus](../index.md)" is the home page of this website and has a detailed schedule.  Keep an eye on the home page for updates!
 
   * Fall semester: Workshops (Pat Bills):    
     * Schedule and expectation;
-    * session materials and activities, "textbook");
+    * website structure, session materials and activities, readings);
     * in-person meeting approx bi-weekly and excluding holidays;
     * our expectations.
   * Winter/Spring semester: Projects (Mahmoud Parvizi):
@@ -104,7 +104,6 @@ The [syllabus](../index.md)" is the home page of this website and has a detailed
     * Check-points to discuss progress and hurdles
   * On-going help
   * Final presentation during Symposium late april
-
 
 ## Introduction to Cloud Computing
 
@@ -125,14 +124,23 @@ The [syllabus](../index.md)" is the home page of this website and has a detailed
   - What things are at the top of your mind as you begin this program?  
   - Which of these topics resonates with your previous experience using computing or cloud computing (if any)?
 
+## Follow up Activity
+
+Please complete the following prior to our next meeting in 2 weeks: 
+
+ - Read about [Azure Organization](../topics/azure_organization.md)
+ - see the topics above and the in-depth readings below to give you more context as you learn
+ - Complete the exercise [Create a Budget Alert](../exercises/exercise_budget_alert.md) so that you may be notified if you spend more money than you plan to. 
+ 
+ *This first part requires significant learning, and the more you do know the better choices you can make when developing your project. *
 
 ## Readings  
-
-  - The [NIST definition of cloud computing](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf) 
+  
   - [Wikipedia article on cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) is actually pretty good
   - [Chapter 1: Orienting in the cloud universe](https://s3.us-east-2.amazonaws.com/a-book/Orienting.html) <br>from **"Cloud Computing for Science and Engineering", Foster and Gannon**  
      ( *[Alternative link to publisher preview chapter](https://mitpress.ublish.com/ereader/239/?preview#page/1)*  )
   - [Using Cloud Computing for Academic Research](../references/DRAFT_cloud_computing_for_academic_research_parvizi_2021.pdf), Mahmoud Parvizi (draft version).   
+  - The [NIST definition of cloud computing](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf) 
  
  ## Optional Readings
   - Optional Historical Note [Who Coined 'Cloud Computing'?](https://www.technologyreview.com/2011/10/31/257406/who-coined-cloud-computing/) by Antonio Regalado, October 2011, MIT Technology Review

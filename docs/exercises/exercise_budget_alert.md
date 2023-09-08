@@ -1,3 +1,6 @@
+---
+title: Setting up Budget Alerts
+---
 # MSU Cloud Computing Fellowship: Costs and Budgets with Microsoft Azure
 
 (Almost) everything you do in Azure has a cost, and costs for resources often acrue over time, wether the resource is in use or not.   This is a 
@@ -25,17 +28,19 @@ For details about this service, see the [Azure Cost Management + Billing documen
 ### Steps to add a  "cost alert" to an existing budget your resource group.  
 
 **Find the Premade Budget**
-- Log into https://portal.azure.com
-- You should see a single resource group, or be put into one automatically.  
-- Open your resource group if is not already
-- The left side bar had properties for the resource group. 
-- In the left side-bar, select "budgets" (scroll down)
-- You should see a single budget named with netid, like this "ccf23_sparty_budget"
-- Click on that budget
-- click 'edit budget' link near the top left
-- review the information
+
+  - Log into https://portal.azure.com
+  - You should see a single resource group, or be put into one automatically.  
+  - Open your resource group if is not already
+  - The left side bar had properties for the resource group. 
+  - In the left side-bar, select "budgets" (scroll down)
+  - You should see a single budget named with netid, like this "ccf23_sparty_budget"
+  - Click on that budget
+  - click 'edit budget' link near the top left
+  - review the information
 
 **Add an 'alert' to that budget**
+
   - in the edit budget form, 
   - alert condition: type = Actual
   - enter 50 percent
