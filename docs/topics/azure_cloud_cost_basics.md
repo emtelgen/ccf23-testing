@@ -43,7 +43,7 @@ In many of the filtering mechanisms in Azure (including costs), the tag names (k
 
 Carefully select the date range for which you want an estimate, especially if your trial run started a few days ago in the previous month as the default is a monthly estimate.  Use a custom date range for the time period that makes sense for the costs you want to observe. 
 
-[![Example Azure Cost Analysis Screen, filtered by Tag](screenshot_azure_portal_cost_analysis_by_tag.png)](../img/screenshot_azure_portal_cost_analysis_by_tag.png)
+![Example Azure Cost Analysis Screen, filtered by Tag](../img/screenshot_azure_portal_cost_analysis_by_tag.png)<br>
 *Example Azure Cost Analysis Screen, filtered by Tag.  Click for larger view*
 
 

@@ -109,13 +109,13 @@ Review the  "[syllabus](../index.md)" on the home page of this website for the s
 * [The Computing in Cloud Computing](../topics/the_computing_in_cloud_computing.md)
 * [Aspects of Cloud Computing](../topics/intro_aspects_of_cloud_computing.md)
 * [Introduction to Azure](../topics/introduction_to_azure.md)
-* [Azure Organization](./azure_organization.md)
+* [Azure Organization](../topics/azure_organization.md)
 * [Learning how to learn about cloud](../topics/learning_how_to_learn_about_cloud.md)
 
 ## Hands-on: Using the Azure Portal
 
 1. [Interacting with Azure using the Portal web interface](../exercises/azure_portal_walkthrough.md)
-2. [Setting a Budget Alert Using the Azure Portal](budget_alert.md)
+2. [Setting a Budget Alert Using the Azure Portal](../exercises/exercise_budget_alert.md)
 
 
 ## Questions and Discussion
