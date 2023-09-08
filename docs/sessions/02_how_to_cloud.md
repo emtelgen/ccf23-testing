@@ -18,7 +18,7 @@ We will discuss all of this material and more during our next regularly schedule
 
 #### Overview Presentation
 
-[Cloud Concepts & Virtualization Slides (PDF)](topics/CCF-session-2-how-to-cloud-slides.pdf)
+[Cloud Concepts & Virtualization Slides (PDF)](../topics/CCF-session-2-how-to-cloud-slides.pdf)
  
 
 ## About the Azure Portal
@@ -26,8 +26,8 @@ We will discuss all of this material and more during our next regularly schedule
 We were introduced to the portal in the first session.   The following dives into more detail about 'resource groups' which is the core of how Azure is organized.  Note that, as we get started, fellows have access to just a single resource group that we've created for you.  You can't create your own but you can create as many resources as yuo need inside this single resource group.  
 
 
- - Top-down description of how [Azure is organized](azure_organization.md)
- - [Using the Azure Portal : tutorial and video](azure_portal_walkthrough.md)
+ - Top-down description of how [Azure is organized](../topics/azure_organization.md)
+ - From Session 1 [Using the Azure Portal : tutorial and video](../exercises/azure_portal_walkthrough.md)
 
 ### Optional Follow-ons: 
 
