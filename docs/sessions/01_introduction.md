@@ -108,7 +108,7 @@ Review the  "[syllabus](../index.md)" on the home page of this website for the s
 
 * [The Computing in Cloud Computing](../topics/the_computing_in_cloud_computing.md)
 * [Aspects of Cloud Computing](../topics/intro_aspects_of_cloud_computing.md)
-* [Introduction to Azure](../topics/introduction_to_azure.md)
+<!-- * [Introduction to Azure](../topics/introduction_to_azure.md) -->
 * [Azure Organization](../topics/azure_organization.md)
 * [Learning how to learn about cloud](../topics/learning_how_to_learn_about_cloud.md)
 
