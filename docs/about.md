@@ -44,9 +44,7 @@ Like many, he has built and worked with on-campus linux systems for many years i
 Mahmoud’s diverse research interests include mathematical and theoretical physics, data-intensive astrophysics, machine learning for precision health, and cloud-computing platforms for academic research. His expertise includes 1) quantum field theory in curved/non-stationary spacetimes; 2) finite temperature quantum field theory and open quantum systems; 3) automated and end-to-end intelligent data pipelines for signal processing using compressed sensing and applied harmonic analysis; 4) machine learning and cloud-computing applications for precision health.
 
 
-**Chelsea Beck** Data Warehouse Lead, ADS, MSU IT Services<br>
-*Role: Logistics and Organizational expertise*
-
+**Sponsored** by ICER, MSU Office of Research and Innovation (ORI), and Don DeRousseau, Directory of the MSU IT Services Research Cyberinfrastructure (RCI)
 ## Previous Cloud Fellows
 
 **2019-2020**
