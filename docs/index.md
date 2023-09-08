@@ -3,10 +3,8 @@ title: MSU Cloud Computing Fellowship
 ---
 
 ![John Constable- one of many cloud studies -cropped](./img/cloudpix/john_constable_cloud_studies_strip.jpg)
-*from John Constable, Cloud Studies, 19th Century English painter*
+*from [John Constable](https://en.wikipedia.org/wiki/John_Constable), Cloud Studies, 19th Century English painter*
 
-<!-- ![Ebene_bei_Auvers_van_Gogh_1890](img/cropped_cloud_painting_Vincent_van_Gogh_Ebene_bei_Auvers_1890_Neue_Pinakothek_Munich.jpg)
- --> 
 <hr>
 # **MSU Cloud Computing Fellowship** 
 
