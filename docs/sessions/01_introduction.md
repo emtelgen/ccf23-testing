@@ -65,24 +65,7 @@ Sponsored by ICER, MSU Office of Research and Innovation (ORI), and MSU IT Servi
 
 
 ## Fellowship Program Overview
-
-#### Program synopsis:
-
-  * Fall semester materials, activities, seminars and discussions (Pat Bills):    
-    * Goal, scope and expectation;
-    * structure (pre-session materials and activities, "textbook");
-    * in-person meeting approx bi-weekly and excluding holidays;
-    * our expectations.
-  * Winter/Spring semester Projects (Mahmoud Parvizi):
-    * Goal, scope and expectation;
-    * Proposal write-up and presentation early January;
-    * Check-points to discuss progress and hurdles
-    * Office hours & help
-    * Final presentation during Symposium late april
-
-Review the  "[syllabus](../index.md)" on the home page of this website for the schedule
-
-#### Goals
+### Fellowship Goals
 
 **Help you get an understanding of:**
 
@@ -97,12 +80,31 @@ Review the  "[syllabus](../index.md)" on the home page of this website for the s
  - apply cloud to some aspect of your own research
  - apply cloud to generic/canned research-like problem
  
- **Non-Goals:**
+**Fellowship**
+ - Learn from and support your fellow researchers
+
+**Non-Goals:**
  - cover all aspects of cloud - we don't cover networks for example due to time constraints
  - prepare you for a cloud computing certification (there are many existing resources for that)
  - become experts in everything cloud
  - build a dot-com empire
  
+### Program Overview
+
+The [syllabus](../index.md)" is the home page of this website and has a detailed schedule.  Keep an eye on this schedule 
+
+  * Fall semester: Workshops (Pat Bills):    
+    * Schedule and expectation;
+    * session materials and activities, "textbook");
+    * in-person meeting approx bi-weekly and excluding holidays;
+    * our expectations.
+  * Winter/Spring semester: Projects (Mahmoud Parvizi):
+    * Goals, schedule and expectation;
+    * Proposal write-up due early January, and presentations during semseter;
+    * Check-points to discuss progress and hurdles
+  * On-going help
+  * Final presentation during Symposium late april
+
 
 ## Introduction to Cloud Computing
 
