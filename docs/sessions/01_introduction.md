@@ -134,6 +134,13 @@ Please complete the following prior to our next meeting in 2 weeks:
  
  *This first part requires significant learning, and the more you do know the better choices you can make when developing your project. *
 
+#### **Bonus Activity** 
+
+If you are familiar with the command line, Azure offers a web-based terminal/shell with many applications pre-installed.   once you have a storage account, you can create a special 'cloud shell' account.  We will cover various interfaces to the cloud next time. 
+
+ - [Overview of the Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
+ - [Start and use the Azure Cloud Shell](https://learn.microsoft.com/en-us/azure/cloud-shell/quickstart?tabs=azurecli)
+
 ## Readings  
   
   - [Wikipedia article on cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) is actually pretty good

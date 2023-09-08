@@ -25,6 +25,9 @@ Azure calls there object cloud storage "Blobs".  It is similar to Amazon Web Ser
 #### Client-Server
 Client/Server model of computing is something we use everyday but perhaps dont' use this term.   See https://techterms.com/definition/client-server_model   You are used to using maybe a dozen clients everyday (phone apps, web browser, ssh to connect to a remote linux, Remote Desktop client to connect to remote desktop server, etc).  Cloud computing provides all the infrastructure needed to create servers quickly and easily. 
 
+#### Cloud Shell
+Cloud computing providers usually have a service where you can run command line (CLI) or terminal commands in a web browser 'shell'  This is helpful as the libraries and utilities are pre-installed.  See https://docs.microsoft.com/en-us/azure/cloud-shell/overview   and [Azure Interfaces](./topics/intro_to_cloud_interfaces.md) introduction.  
+
 #### Containers
 Or Docker Containers (not all containers need to be Docker the vast majority of container system use Docker).  For R users, see https://colinfay.me/docker-r-reproducibility/   For Python users, there is https://www.netguru.com/blog/python-docker-tutorial  although you could read either. 
 
