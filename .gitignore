@@ -1,0 +1,5 @@
+site/
+.venv
+.DS_store
+obsoleted
+

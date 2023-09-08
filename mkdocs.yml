@@ -1,0 +1,29 @@
+site_name: MSU Cloud Computing Fellowship
+nav:
+    - Home: index.md
+    - About: about.md 
+    - Topics: topics/index.md
+    - Contact: contact.md
+    - Project requirement: projects.md  
+    - Cloud References: references/index.md
+    - Cloud Glossary: cloud_glossary.md
+    
+theme: 
+  name: material
+  features:
+    - navigation.sections
+  palette:
+    primary: black
+markdown_extensions:
+  - attr_list
+  - pymdownx.magiclink
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - md_in_html
+extra:
+  generator: false
