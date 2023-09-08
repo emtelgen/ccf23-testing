@@ -17,6 +17,8 @@ Very in-depth case study of cloud for simulations (climate models): \
 
 Historical Note [Who Coined 'Cloud Computing'?](https://www.technologyreview.com/2011/10/31/257406/who-coined-cloud-computing/) by Antonio Regalado, October 2011, MIT Technology Review
 
+Intro to Cloud Computing from Microsoft which is primarily for IT people responsible for spending money and maintaining IT Infrastructure: [MS Training Describe cloud computing](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/)
+
 ## Azure Resources
 
 ### General Azure References

@@ -1,8 +1,11 @@
+---
+title: 
+---
 <img src="../img/gaspump.gif"  style="display: block; float:right;margin:1em;" />
 
-Prior to doing this exercise, See the reading and lecture slides linked in this session for definitions of terms. 
+Prior to doing this exercise, See the reading and lecture slides for [Cloud Storage](../sessions/03_cloud_storage.md) for definitions of terms. 
 
-How large, approximately, is your data?  If you are unsure, estimate 100 gb.   How much would it cost to keep it in the cloud?
+How large, approximately, is your data?   If you are unsure, estimate 100 gb.   How much would it cost to keep it in the cloud?
 
 Compare the pricing for Blob, Files and Disk storage for 6 months
 

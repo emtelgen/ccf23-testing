@@ -1,3 +1,6 @@
+---
+title: Session 3 exercise - analyzing data on a VM
+---
 # Exercise: using the cloud to summarize and visualize data. 
 
 ## Overview
