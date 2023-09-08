@@ -2,10 +2,14 @@
 
 # Introduction to the 2023-24 MSU Cloud Computing Fellowship
 
-<figure>    
+![Rosie in Atlantic Ocean](../img/rosie_facing_the_atlantic_clouds_psbills_2021.gif)
+*You don't have to face the clouds alone*
+
+
+<!-- <figure>    
   <img src="../img/rosie_facing_the_atlantic_clouds_psbills_2021.gif" /
   <figcaption><em>You don't have to face the clouds alone</em></figcaption>
-</figure>
+</figure> -->
 
 
 ## Welcome! 

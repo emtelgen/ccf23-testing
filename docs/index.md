@@ -57,8 +57,9 @@ Each approximately 2-week session consists of
       - intro to Cloud/Computing and Azure
    * Assignments: 
     
-2. [How to Cloud](./sessions/02_virtualmachines.md)
+2. [How to Cloud](./sessions/02_how_to_cloud.md)
    * Meeting **September 22, 3pm** 
+      - Azure Organization
       - Creating and Using Virtual Machines
 
 3. [Cloud Storage](./sessions/03_cloud_storage.md)

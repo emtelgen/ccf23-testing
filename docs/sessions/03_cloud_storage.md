@@ -16,10 +16,11 @@ Cloud storage was engineered to save millions of files for millions of users and
 
 - [Azure Cloud Storage for Researchers](../topics/azure_cloud_storage_for_researchers.html) (Slides)
 
-Exercise: [Azure Storage Pricing](storage_pricing_exercise.md) 
+- Exercise: [Azure Storage Pricing](storage_pricing_exercise.md) 
 
 ## Readings
 
+- Not a bad, high-level introduction : [Edureka Azure Storage Tutorial](https://www.edureka.co/blog/azure-storage-tutorial/)  (there are several pop-ups and ads, but it's a good level of of information )
 - [Storage as a Service](https://s3.us-east-2.amazonaws.com/a-book/storage.html) from "Cloud Computing for Science and Engineering"  
 - Azure Documentation: [Introduction to the core Azure Storage services
 ](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)  
