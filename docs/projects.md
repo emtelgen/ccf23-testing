@@ -1,36 +1,23 @@
+![van gogh](./img/cloudpix/cropped_cloud_painting_Vincent_van_Gogh_Ebene_bei_Auvers_1890_Neue_Pinakothek_Munich.jpg)
 # Cloud Computing Fellowship Projects 2022-2023
-
-<img src="https://media.istockphoto.com/vectors/computer-floating-balloons-vector-id483818607?k=6&m=483818607&s=170667a&w=0&h=Y5SCqmFn4y2_mBgeR6qCjcrI62gi272isLVmgHoVFdk=" width="200px" align="right" alt="graphic of computer floating with ballons">
 
 
 The primary activity of the Cloud Computing Fellowship is to support the fellows to create and present a cloud-computing-based project working with research data.  During Fall semseter the fellowship provides materials and help to learn core cloud concepts and activies, and Winter/Spring semester is devoted to project development.  
 
-
 ### Time-line and Due dates
 
-**March 24, 2pm**: In-person meeting to discuss fellowship participation
-
-**April 28**:  Final Project Writeup due by 5:00pm EDT
-
-**May 5** : Presentation of project experience at the Cloud Computing Fellowship Symposium (time and location TBD)
-
+Fellows deliver a proposal for their projects in early January 2024, and present that proposal to their colleagues in the fellowship.   
+See the [schedule](./index.md) for due dates.  In Winter 2024 more detail will be provided on this site. 
  
-*Note the Previous Timeline due date sare no longer relevant due to events on campus this semester* <!-- [Cloud Computing Fellowship Deliverables Timeline Spring 2023 pdf](img/cloud_computing_fellowship_deliverables_timeline_spring2023.pdf) <br>*this was sent via email in January, but also posted here in February* -->
-
-<!-- 
-- Project brief (email) : due **December 9th, 2022** \
-please send us a 1-2 sentence project description of your current thinking for what you'll tackle for your project.   If you unsure at this time, then send us 1-2 sentence about why you are unsure, or the kinds of things you are considering, and schedule a time to meet with one of us.     
-- Project Proposal Write-up: due **January 9th, 2022**  Refer to the project guide, above
-- Project proposal presentations (1-2 slides): **January 13th, 2pm**, BPS Building. 
-- In-person sessions for discussion and presentations on project progress: **January through March, 2023** (see schedule on main page)
-- Final project write-up: **April, 2023, date TBD**: 
-- Fellowship symposium and final presentation: **April 2023, date TBD**:  -->
-
 ### Questions, Answers and other Notes
 
 **Q. Do I have to use my own data for my project or can I use data from the web or other public data?**
 
 A. you can bring any data that you may use for your research, or that demonstrates cloud processes you may use in your research.   
+
+**Q. Could I work on a problem outside of my research for my project**
+
+A.  Yes.   We encourage fellows to consider some small aspect of their own research to apply to their projects, but not all research can be readily adapted for cloud computing to contribute, especially with very limited time and budget.    If the project is related, even tangentially, to your current research project, and you feel your chosen project will advance your career or knowledge of cloud for later application, then by all means please pursue and present what you've learned. 
 
 **Q.  Do I have to use programming in my project?**
 
