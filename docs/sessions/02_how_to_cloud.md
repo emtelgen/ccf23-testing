@@ -1,3 +1,7 @@
+---
+title: 2 - How to Cloud
+---
+
 # Session 2: What is the cloud and how does it work?  An introduction using storage and virtual machines
 
 ### About this Session

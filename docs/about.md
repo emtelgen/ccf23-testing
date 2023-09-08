@@ -1,3 +1,6 @@
+---
+title: About
+---
 # About The MSU Cloud Computing Fellowship
 
 The MSU Cloud Computing Fellowship is a cross-disciplinary program produced by MSU’s Institute of Cyber-Enabled Research (ICER) and the IT Services Analytics and Data Solutions (ADS) group for invited MSU doctoral students and postdoctoral researchers. As a part of this program, fellows will participate in a series of workshops during the fall semester to:

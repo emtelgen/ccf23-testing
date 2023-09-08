@@ -1,3 +1,6 @@
+---
+title: Topic Index
+---
 # Short Topics for the Cloud Computing Fellowship
 
 These topics are introduced in the sessions in the [syllabus](../index.md).  This is an index of all the topics here to help you find them outside of lessons.  The order is when they were introduced 

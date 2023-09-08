@@ -1,5 +1,5 @@
 ---
-title: MSU Cloud Computing Fellowship
+title: Syllabus
 ---
 
 ![John Constable- one of many cloud studies -cropped](./img/cloudpix/john_constable_cloud_studies_strip.jpg)

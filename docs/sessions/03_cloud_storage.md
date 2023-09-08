@@ -1,3 +1,7 @@
+---
+title: 3 - Cloud Storage
+---
+
 # Session 3: Cloud Storage
 
 ![storage_units](../img/storage_units.jpg)
