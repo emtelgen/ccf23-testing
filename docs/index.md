@@ -68,23 +68,24 @@ Each approximately 2-week session consists of
    * Assignment/Exercise: [analyzing weather data in the cloud](./exercises/exercise_using_the_cloud_to_summarize_and_visualize_data.md)
 
 4. Databases and Data Analytics Systems on the Cloud for research    
-    * Meeting  **October 20** 
+    * Meeting  **October 20, 3pm** 
     * Exercises: Using SQL database for research data
 
 5. Big Data Systems and the cloud
-    * Meeting ****: 
+    * Meeting **November 3, 3pm**: 
     * Exercise: Using R and Python on a databricks cluster 
 
 6. Serverless Cloud Computing
-    * Meeting **November**
+    * Meeting **November 17, 3pm**
     * [Review Project Requirements and Specification](projects.md)
     * Assignment: email 1-2 sentences describing a project you may undertake by December 6
 
 7. Azure AI Services
-    * Meeting **December 9**: 
+    * Meeting **December 1, 3pm**: 
+      - Discussion: Fellowship Projects
       - Demonstration of AI Services
-      - Exercise: Creating responder using Python API
-      - Discussion of Fellowship Projects
+      - Exercise Hands-on reating responder using Python API
+      - Assignment: project proposal due January 8, 2024
    
 ## Winter/Spring 2023 Schedule
 
@@ -94,29 +95,34 @@ Fellows will attend bi-weekly meetings where groups of fellows will present the 
 
 All meetings are in the MSU STEM Building, room 1201, alternate Fridays 3pm to 4:30pm  
 
+Instructors are available by appointments, and typically during the alternate fridays to answer any questions you have about cloud, projects, or applying cloud computing technology to your research
 
-
-**Monday, January 8th** Project Proposal due
+1. Turn in Project Proposal **Monday, January 8th** 
    - Post Written Project Proposal to MS Teams folder prior to 5:00 pm  
-   - Instructors will review proposals and schedule meeting times with fellows to review in January
-**Friday, January 13th 3pm:**  Cloud Computing Seminar TBD
+   - Additionally survey of fellows to determine symposium dates will be distributed
+
+2. Schedule meeting with Instructors to review proposals.  This is on-going during January to ensure we have time to meet with all fellows one-on-one. 
+
+3. Cloud Computing Seminar TBD **January 12th**  
    
-Project Status Upate 1
-   - Post Written Project Proposal-Update1 to this MS Teams folder prior to 5:00pm February 20th - Post Project Proposal Slides-Update1 to this MS Teams folder prior to 5:00pm February 23rd
-   - Meeting  **February XXth 3pm** Present your Project Proposal-Update1 Slides
-Project Status Update 2
-   - Post Written Project Proposal-Update2 to this MS Teams folder prior to 5:00pm March Xth
-   - Post Project Proposal Slides-Update2 to this MS Teams folder prior to 5:00pm March Xrd
-   - meeting **March xth 3pm** Present ‘in-person’ your Project Proposal-Update2 Slides at 
-6. Project Final Reports
-  - Post CCF Symposium Talk Title & Abstract to this MS Teams folder prior to 5:00pm April 17th
-  - Post CCF Final Project Writeup to this MS Teams folder prior to 5:00pm April 21st - Present ‘in-person’ at the CCF Annual Symposium on TBD
+4. Project Proposal Presentations <br>
+   Fellows will present their proposals to the fellowship, up to 6 per session, followed by questions and feedback from colleagues
+   - **January 26, February 9th, February 23**
+
+5. Project status presentations<br>
+   Fellows will present the status of their projects, describing challenges and successes, and receive questions, feedback, support and help from the fellowship
+   ** March 8, March 22, April 5**
+
+6. Project Final Reports <br>
+   **April 12** A writeup of the the results and lessons from applying cloud computing technology
+   
+7. Symposium Preparation<br>
+   - The data and time of the symposium will be determined January 24
+   Fellows must turn in Symposium Talk Title & Abstract 3d prior to symposium
 
 ## MSU Cloud Computing Fellowship Symposium
 
-Projects Presentations by all fellows.   Fellows are strongly encourage to invite their advisors, mentors and colleagues. 
-
-Late April, 2024.  Date and time determined in January 2024 with input from the fellows
+Fellows will present the outcomes, successes, challenges and lessons learned at a symposium held on MSU campus late April, 2024.  The date and time determined in January 2024 with input from the fellows.   Fellows are strongly encourage to invite their advisors, mentors and colleagues.  
  
 ## Communications
 
