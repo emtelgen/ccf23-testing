@@ -1,6 +1,13 @@
+---
+title: The Computing in Cloud Computing
+---
 # Helping to Understand the "computing" in cloud computing
 
+![](../img/header_image_old_corp_network_diagram.jpg)
+
 You come to us with a unique set of experiences with computing, with more or less experience depending on your previous needs.  A challenge we have seen, for the many years we've been helping people, is understanding the context of computing in their research to understand the tools they have available.    
+
+In fact most documentation for cloud computing assumes you know the world of computing.   [An introduction to cloud computing from microsoft](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/) lists this  Prerequisite: "Basic familiarity with IT terms and concepts."  It turns out 'basic' can mean a lot of things.
 
 **A core goal of the MSU Cloud Computing Fellowship is to help you connect cloud computing to your research in a meaningful way**
 
@@ -16,7 +23,7 @@ You may already have an idea of what this is, and experience with computing but 
 
 ## What is computing? Minimal Vocabulary
  
-Cloud computing was invented for, and is marketed to IT systems administrators, software developers, and IT/technology managers.  See the history of AWS.   It is was not designed with researchers in mind.    Note, however, that Cloud Computing is general enough and is often marketed to researchers or 'for research.'  
+Cloud computing was invented for, and is marketed to IT systems administrators, software developers, and IT/technology managers.  See the history of AWS.   It is was not designed with researchers in mind.   Most training and documentation  Note, however, that Cloud Computing is general enough and is often marketed to researchers or 'for research.'  
 
 The primary function of cloud computing is to provide "infrastructure" aka the "back-end" or back room of a company's IT department, so we ware going to learn about that.  In fact, cloud computing is frequently defined, named, and sold based on abstractions of physical components of computers and IT infrastructure.    Hence learning more about IT infrastructure, or "computing" may be helpful understanding the context in which cloud computing is engineered.  This can help you determin what you may need from cloud computing to get your research done.   
 
@@ -40,7 +47,9 @@ Where is the data in this abstraction of computer infrastructure? Answer: everyw
 
 If you hadn't thought or known about the components of a computer, that's no mistake.   Most people don't know the details of how their car operates, how to change their oil, or diff between carburetor and turbo charging?
 
-### "Stack Model" of computing:
+### "Stack Model" of computing.  
+
+Just as in Science and the humanities, we need a model and terminology to talk about a subject.  A standard IT model of a computer is a 'stack' model, where each upper layer depends upon the layers below.   Most models of cloud computers build upon this simple model.  
 
 <table border="0">
 <tr><td align="center">User</td></tr>
@@ -65,6 +74,9 @@ A server is any computer running software that listens for, and responsed to, me
  - port: a computer may run many servers for internal and external use.  Unix devised a system of numbered 'ports' (nbumber 01 to 64K), and when running a server you must tell the server which port to listen for messages.  Users of most software never have to know or think about ports.  
 
 The 'Client/server' model invented in the 60s is so successful that we use servers for our daily lives and don't think about it (except when the server is down).  This model of computing is important because it's at the basis for of cloud computing.  
+
+We often think of a server as a box, but in the model above, the server is in the software layer, but each of layers below provides services for that software to exchange messages with another computer.   If you can abstract, virtualize or automate the layers below, it becomes much easier to provision servers than to purchase, install and configure physical hardware.   
+
 
 ### Example Server
 
@@ -105,7 +117,7 @@ Many of these do not use web-based protocols or connections.   They define their
 
 Why do I think this is important?  not only can you make a server (web, data, cluster, etc with cloud but everything you interact with in cloud is a server.  You will see many services dedicated to networking in the cloud.  
 
-
+On our campus, the network is managed by the institution, and it is configured to block all incomming traffic to prevent anyone from running a server which is a security risk. 
 
 ## Too much hardware? Virtualization to the rescue
 
@@ -116,5 +128,6 @@ If you run a big IT Department that services 1000s of people, you need a lot of 
 - Many servers could be created and managed with software on a single hardware  
 - Virtualization was a necessary conceptual and technological innovation to pave the way for cloud computing and is widely used both on-premise and in the cloud.
 - Networks and other services followed suit: create single big computers that uses 'virtualization' software to emulate the functioning of a service, such that the clients don't know  they are not working with an abstraction.    Running different wires to connect different things is labor intensive.   
+
 
 
