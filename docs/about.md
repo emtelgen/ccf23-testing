@@ -3,7 +3,7 @@ title: About
 ---
 # About The MSU Cloud Computing Fellowship
 
-The MSU Cloud Computing Fellowship is a cross-disciplinary program produced by MSU’s Institute of Cyber-Enabled Research (ICER) and the IT Services Analytics and Data Solutions (ADS) group for invited MSU doctoral students and postdoctoral researchers. As a part of this program, fellows will participate in a series of workshops during the fall semester to:
+The MSU Cloud Computing Fellowship is a cross-disciplinary program produced by MSU’s Institute of Cyber-Enabled Research (ICER) and MSU IT Services for invited MSU doctoral students and postdoctoral researchers. As a part of this program, fellows will participate in a series of workshops during the fall semester to:
 
   * Determine the aspects of your research that can be accomplished with cloud computing;
   * Incorporate cloud-based systems into your research application or workflow; and
@@ -44,7 +44,7 @@ Like many, he has built and worked with on-campus linux systems for many years i
 Mahmoud’s diverse research interests include mathematical and theoretical physics, data-intensive astrophysics, machine learning for precision health, and cloud-computing platforms for academic research. His expertise includes 1) quantum field theory in curved/non-stationary spacetimes; 2) finite temperature quantum field theory and open quantum systems; 3) automated and end-to-end intelligent data pipelines for signal processing using compressed sensing and applied harmonic analysis; 4) machine learning and cloud-computing applications for precision health.
 
 
-**Sponsored** by ICER, MSU Office of Research and Innovation (ORI), and Don DeRousseau, Directory of the MSU IT Services Research Cyberinfrastructure (RCI)
+**Sponsored** by ICER, the MSU Office of Research and Innovation (ORI), and MSU IT Services Research Cyberinfrastructure (RCI)
 ## Previous Cloud Fellows
 
 **2019-2020**
