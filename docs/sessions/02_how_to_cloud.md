@@ -51,10 +51,12 @@ We introduced "virtualization" during our introduction.  For IT this means flexi
 IBM describing how companies (including MSU!) use virtualization to run multiple computers on one server to optimize the use of space in a data center. 
 - [What's the difference between cloud and virtualization?](https://www.redhat.com/en/topics/cloud-computing/cloud-vs-virtualization) from RedHat, a Linux Operating system company
 
-**Activity:** A long activity to [create (and delete) a Virtual Machine with the Azure Portal](azure_vm_walkthrough.md) for both windows and Linux. 
+#### Activity: create a virtual machine with Azure
+
+[Create (and delete) a Virtual Machine with the Azure Portal](../exercises/azure_vm_walkthrough.md) for both windows and Linux. 
 
 
-#### Why create a VM
+#### Discussion: Why create a VM?
 
 What is a VM good for?   The activity above does not discuss why you'd create a VM and connect with remote desktop, only that you can do it.   We will discuss that at our next session.  Can you think of possible use cases for your research, or other types of research, for a remote computer that could be very powerful or very small?
 
