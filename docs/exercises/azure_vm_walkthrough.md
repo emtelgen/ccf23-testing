@@ -43,71 +43,88 @@ To connect to a Windows VM desktop, it's recommend you use the Microsoft Remote 
 
   * MacOS : install the Microsoft Remote Desktop Client, only available on the App Store: https://apps.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12
   * Linux users install http://xrdp.org/
-  * Windows Users ensure you have the client : In the search box on the taskbar, type Remote Desktop, and then select Remote Desktop Connection.
+  * Windows Users should have the remote desktop client, but to  ensure you do: In the search box on the taskbar, type Remote Desktop, and then select Remote Desktop Connection.
 
 
 ### 1. Selecting the Resource Template 
 
 In the [Azure Portal](https://portal.azure.com) open the top left menu, and click "+ Create a resource" option (the first option)
 
-In the create resource search box, type "data science virtual machine"
+In the create resource search box, type "data science virtual machine" and press enter to search.   It will present you with some of the suggested options as you type but please search. 
 
-In the options select **Data Science Virtual Machine - Windows 2019 **
+In the options select **Data Science Virtual Machine - Windows 2022 (preview) **  *(note there is a more recent )
 
-The "Plans" section has a description of the template if you would like to know more. 
+Click "Create"  ( *note: do not click the "**start with a pre-set configuration**" option* )
 
-Click the "**start with a pre-set configuration**" option. 
-
-### 2. select the pre-set configuration
-
-These configurations help to select your VM size based on your activity.  We will use the default options and click **"Continue to create a VM"** 
-
-The options do not affect the outcome of the exercise so at this step explore each option
-
-Click "**Continue to create a VM**"
-
-### 3. Configure the VM using the Azure Portal
+### 2. Configure the VM using the Azure Portal
 
 The resource creation forms work as described in the Azure Portal but since we used a pre-set configuration some of the values will be completed. 
 
 ##### Basics 
 
-1. The **Subscription** should be "Cloud Computing Fellowship" and
-**resource group** should be your CF resource group (with your netid).  As we create additional resource groups for this 
+1. **Subscription** should be "Cloud Computing Fellowship" 
 
-1. **Virtual machine name**  Name: CF21-netid-dsvmtest
-   One option is to combine the project (e.g. the fellowship), your net id, and some description of what you are doing.   In the name above, replace "netid" with your own MSU netid.  <br>Note that different resources have different naming restrictions.  For example VMs the rules are "can be almost anything, but Azure resource names cannot contain special characters \/""[]:|<>+=;,?*@&, whitespace, or begin with '_' or end with '.' or '-' " <br>Note if you have an existing VM with this name, add a number 2 or other suffix.  We will delete this VM and create something more suitable in the future. 
+1. **Resource Group** should be your CF resource group (with your netid).  The default is to create a new resource group but participants aren't allow to create their own group,  you must select the resource group with your netid.  
 
-1. **Region**  Select "(US) North Central US"
+1. **Virtual machine name**  Name: You could name it anything that is unique in the region you choose, but to help keep track of your resources, I strongly suggest using a name that includes your netid and the purpose of this VM: dsvm-netid-exercise2
 
-1. **Availability Options** select "No infrastructure Redundancy required"  
-   this option is for critical infrastructure that needs to withstand a serious outage (e.g. if a hurricane affects a data center).  
-   You may also see an "availability zone" option appear (perhaps with an error message *"The value must not be empty"*).  Selecting ""No infrastructure Redundancy required" in the availability zone will remove the "availability zone" field and error message. 
-1. **Image** should be "Data Science Virtual Machine - windows..."   if this is change you may 
+   In the future, One option is to combine the project (e.g. the fellowship), your net id, and some description of what you are doing.   In the name above, replace "netid" with your own MSU netid.  <br>Note that different resources have different naming restrictions.  For example VMs the rules are "can be almost anything, but Azure resource names cannot contain special characters \/""[]:|<>+=;,?*@&, whitespace, or begin with '_' or end with '.' or '-' " <br>Note if you have an existing VM with this name, add a number 2 or other suffix.  We will delete this VM and create something more suitable in the future. 
+
+1. **Region**  Select "(US) Central US"
+
+1. **Availability Options**  Leave the default ("`Availability Zone`")
+
+1. **Availability Zone** Leave the default ( "`Zones 1`")
+
+1. **Security Type**  You must change this value to "`Standard`" security type.  The "Trusted"  security option is for servers or production machines.  
+1. **Image** should be "Data Science Virtual Machine - windows..."   if this is changed you may have to re-enter some info again.  
+1. **VM Architecture** Leave as the default 
 1. **Azure Spot Instance**  leave unchecked.   
-1. **Size**   You can leave the size that is currently selected, which is based on the pre-set configuration from the previous step. 
-   This is how you select the specifications for [CPU](../cloud_glossary/#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00  
+1. **Size**   You can leave the size that is currently selected. 
+   NOTES: This is how you select the specifications for [CPU](../cloud_glossary/#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00  
 1. **Administrator Account**
    Just like you need to log-in to your own computer, you must create a user account for the VM.   Select a User name and account that you will easily remember, because you will need it to log-in to the new VM. 
-    * username : use any user name you will easily remember, perhaps your netid
-    * password : something you can remember, but is complex to be secure.  Do **not** use your MSU password or any other passwords you use
-1. **Licensing**  Unlike Linux, Windows requires a license, and this option are for organization with an arrangement with Azure.   Leave this box unchecked and Azure will add the extra charges (a few cents per hour) for the use of Windows.    
+    * username : use any user name you will easily remember.  I use my netid so I can always remember. 
+    * password : this must be a complex password, but use something you can remember, or copy/paste from another program.  Do **not** use your MSU password or any other passwords you use
+1. **Licensing**  Unlike Linux, Windows requires a license, and this option are for organization with an arrangement with Azure.   Leave this box unchecked and Azure will add the extra charges (a few cents per hour) for the use of Windows.   If you use a Windows VM for your research, you may be able to use an MSU license.  
 
 
-#####  Disks and Other Settings
+#####  Disks 
 
-For this exercise we'll be using the default values for almost all the pages except for **Basics** page.    However you are encouraged to look through these options to see what is involved in creating a virtual machine.  The [Azure VM documentation](https://docs.microsoft.com/en-us/azure/virtual-machines/) covers many of them.   For example a VM requires several networking components.   The good news is that Azure will name and create these for you, which will see.  
+Leave these as the defaults.  
+
+I want to point out one option that "Delete with VM."    We will talk about this in the future, but for now it's like purchasing the computer and the disk inside separately.   In this case we are just testing so we will delete everything after we are done, but in practice there are reasons for keeping the disk around after you delete the VM so you may sometimes want to uncheck this box  
+
+#### Networking
+
+
+Use the defaults for all of these options. 
+
+Again note the  "Delete public IP and NIC when VM is deleted" option.  As you follow this exercise you will see how to delete networking resources with the VM. 
+
+Note that you must configure some kind of networking when creating VMs and other resources in the cloud.   These defaults are fine for that and will create networking resources for which you will be charged (but not much). 
+
+#### Other Settings
+
+For this exercise we'll be using the default values for almost all the pages except for **Basics** page.    However you are encouraged to look through these options to see what is involved in creating a virtual machine.  The [Azure VM documentation](https://docs.microsoft.com/en-us/azure/virtual-machines/) covers many of them.   For example a VM requires several networking components.   The good news is that Azure will name and create these for you, which will see. 
+
+
 
 
 ##### Tags
 
-For this exercise, using tags will be essential for identifying which components go to which VM.  If you need more information see [session 2 page](index.md)  for a readings about tags.   Do the following: 
+For this exercise, using tags will be essential for identifying which components go to which VM.  If you need more information see [session 2 page](../sessions/02_how_to_cloud.md)  for readings about tags.   On the tags section, do the following: 
 
 1. Click "tags" in the top row of options (just before 'review and create')
-1. In the first row, For **Name**, type `activity` and for the **Value** type  `session2_vm` or similar unique value. 
-1. click "review and create" 
+1. In the first row, For **Name**, type `activity` and for the **Value** type  `session2 vm` or similar unique value. 
+1. Optionally, in an additional row, create another tag with **Name** `created by` and for **Value** put your netid.   This 
+kind of tag can be essential when you are sharing cloud accounts with other members of your work group, so that others in your group may identify who created the resources. 
 
 ##### Review and Create
+
+1. click "review and create" at the bottom of the screen. 
+
+
 
 If there are errors the form name will have a red dot next to it.  Go back to that form and see what may be the issue. 
 
