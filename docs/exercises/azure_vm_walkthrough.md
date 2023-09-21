@@ -16,7 +16,7 @@ We will use a pre-configured virtual machine with software already installed for
 
 You need an Azure account with an active subscription, and a resource group of your own to work in.   Fellows have these things provided.  
 
-This exercise assumes you understand how to use the Azure Portal, which is covered in the [Azure Portal Walkthrough](azure_portal_walkthrough.md).  In addition it's helpful to know what a virtual machine is but it's not crucial to complete the exercise.  For more information on VMs see the [slides from session 2](msu-cloud-fellowship21-session2.pdf) and readings from the ["Virtual Machine Background"](index.md#readings) section
+This exercise assumes you understand how to use the Azure Portal, which is covered in the [Azure Portal Walkthrough](./azure_portal_walkthrough.md).  In addition it's helpful to know what a virtual machine is but it's not crucial to complete the exercise.  For more information on VMs see the readings [session 2](../sessions/02_how_to_cloud.md)
 
 It's helpful to have basic understanding of the ["Client-Server"](cloud_glossary/#client-server) model of computing as the VM we create will be running servers (remote desktop server for Windows, and ssh command line server for Linux)
 
