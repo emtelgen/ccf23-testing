@@ -288,19 +288,23 @@ Here are more detailed instructions:
 
 There is a 'connect' link above the 'essentials' list, and a connect link on the left side - they both go to the same place. 
 
+The connect pane looks something like this:  ![connect pane](./vm_activity/azure_vm_connect_pane_2023.jpg)
+
 **Connect with RDP**  (remote desktop protocol)  is a Microsoft method for connecting to the graphical desktop.  For Mac/Linux requires additional software (mentioned at the beginning of this page).  
 
   * Step 1: In the Azure portal:
   
-    - click "connect" and select "rdp" if it isn't already.  
+    - click "connect" and in the "native rdp" box, click "select
+    - a new pane displays, that may look like this: 
+    ![Azure rdp connect pane 2023](./vm_activity/azure_vm_connect_pane_2023.jpg)
+    - it may take a few seconds for Azure to configure the VM to use RDP, wait for the gray "configure" button to save "configured"
     - click "**download RDP file**" button and save the `.rdp` file anywhere on your computer that you find it again
+    - note that at one point I had the error message "VM Not Started."  I believe I didn't wait long enough for it to be provisioned.   Click the "start VM" on this message
 
   * Step 2:
     - after it's downloaded, find the  `.rdp` file and double click to open it which should start your remote desktop software.   Mac users must have installed the Microsoft Remote Desktop client app 
     - ignore any security or error messages, click "connect"
-    - Enter the user name and password you used when you created the VM.  This is not your email address, or the username of your computer, the one you used for the "administrator account" in the *Basics* section of the VM creation form.  
-    - If the VM is not running when you  you will get an error message.
-
+   
   * Alternatively you may also open your RPD software, create a new connection, and copy the IP address listed in the portal, in the Azure VM.  and paste the IP address that is listed on the resource page for the VM.   
 
 ![Entering an IP address into the Windows RDP client](vm_activity/vm_activity_screenshot_remote_desktop_entering_ip_address.jpg)
@@ -311,10 +315,11 @@ There is a 'connect' link above the 'essentials' list, and a connect link on the
 
    This is because we are using a temporary certificate but it is secure.  Click "Yes" 
 
-  * Enter the Username and password you used when  configuring the VM in the "Basics" section above.   
+  * Step 3. Enter the Username and password you used when  configuring the VM in the "Basics" section above.   
     * For some versions of Windows, you need to click "More choices" in the Windows Security menu, otherwise the default is often your Microsoft or your laptop account
     * Enter the user id and password you used when you created the VM.  If the user account you entered does not work, you may have to put your user account in domain\username form, and in this case, the domain is the name of the virtual machine and it is entered as vmname\username, with a back-slash in-between, and with the same password. 
 
+**Starting up the VM**
 Once you connect for the first time, the Windows VM will provision the VM user account and will install things during and after start-up.  Feel free to close any windows.  Once the installations are finished, you may use the machine as you would any other windows computer.  You can start Jupyter notebooks to work with Python.  Previous version of the Azure Data Science Virtual Machine has Rstudio installed on it, but the latest version only seems to have the base R interface. 
 
 We will cover how to transfer code and files to a VM in a later session.  If you are comfortable with using the command line, you can use `git clone...` to download code to run.  
@@ -324,6 +329,10 @@ Explore to see what is already pre-installed on this VM.   If you start with a s
 When you finished with your remote session you may simply close the remote windows (leaving the VM running.  See below for how to turn it off and delete it. 
 
 **Optional: Connect to the Windows DSVM with ssh**  
+
+
+*NOTE* In 2023 the 'connect' option in the Azure portal has a button beneath the RDP section that says "more ways to connect."  Inside this is a "native
+ssh" section.  This only have instructions for how to connect with SSH.  there is no special file to download like RDP. 
 
 This windows machine has an SSH Server running, and the security settings from the pre-configured version allow connections from SSH.   If you are familiar with ssh and the command line, you may start the CMD.EXE on your windows computer, or the Mac Terminal, and enter
 `ssh <username>@<ipaddress>`
