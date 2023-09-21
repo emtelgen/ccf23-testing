@@ -52,7 +52,7 @@ In the [Azure Portal](https://portal.azure.com) open the top left menu, and clic
 
 In the create resource search box, type "data science virtual machine" and press enter to search.   It will present you with some of the suggested options as you type but please search. 
 
-In the options select **Data Science Virtual Machine - Windows 2022 (preview) **  *(note there is a more recent )
+In the options select **Data Science Virtual Machine - Windows 2022 (preview) **  *(note there is also a 2019 version but they seem very similar and will both work for this exercise )*
 
 Click "Create"  ( *note: do not click the "**start with a pre-set configuration**" option* )
 
@@ -62,26 +62,30 @@ The resource creation forms work as described in the Azure Portal but since we u
 
 ##### Basics 
 
-1. **Subscription** should be "Cloud Computing Fellowship" 
+1. **Subscription** should be "MSU Cloud Computing Fellowship" 
 
-1. **Resource Group** should be your CF resource group (with your netid).  The default is to create a new resource group but participants aren't allow to create their own group,  you must select the resource group with your netid.  
+1. **Resource Group** should be your CF resource group (the one with your netid).  The default is to create a new resource group but participants aren't allow to create their own group,  you must select the resource group with your netid.  
 
 1. **Virtual machine name**  Name: You could name it anything that is unique in the region you choose, but to help keep track of your resources, I strongly suggest using a name that includes your netid and the purpose of this VM: dsvm-netid-exercise2
 
-   In the future, One option is to combine the project (e.g. the fellowship), your net id, and some description of what you are doing.   In the name above, replace "netid" with your own MSU netid.  <br>Note that different resources have different naming restrictions.  For example VMs the rules are "can be almost anything, but Azure resource names cannot contain special characters \/""[]:|<>+=;,?*@&, whitespace, or begin with '_' or end with '.' or '-' " <br>Note if you have an existing VM with this name, add a number 2 or other suffix.  We will delete this VM and create something more suitable in the future. 
+   one option is to combine the project or activity (e.g. ), your net id, and some description of what you are doing.   In the name above, replace "netid" with your own MSU netid.  
+     - Note that different resources have different naming restrictions.  For example VMs the rules are "can be almost anything, but Azure resource names cannot contain special characters \/""[]:|<>+=;,?*@&, whitespace, or begin with '_' or end with '.' or '-' " 
+     - Note if you have an existing VM with this name, add a number 2 or other suffix.  We will delete this VM and create something more suitable in the future. 
 
-1. **Region**  Select "(US) Central US"
+1. **Region**  Select any region or use the deafult.   In the future, when creating resources (like VMs) that access your storage account, should use the same region as that.  For this exercise it doesn't matter as we will be deleting these resources.  For me, the default was "(US) Central US"
 
 1. **Availability Options**  Leave the default ("`Availability Zone`")
 
 1. **Availability Zone** Leave the default ( "`Zones 1`")
 
-1. **Security Type**  You must change this value to "`Standard`" security type.  The "Trusted"  security option is for servers or production machines.  
+1. **Security Type**  You **must** change this value to "`Standard`" security type.  The "Trusted"  security option is for servers or production machines.  
 1. **Image** should be "Data Science Virtual Machine - windows..."   if this is changed you may have to re-enter some info again.  
-1. **VM Architecture** Leave as the default 
+1. **VM Architecture** Leave as the default x64 (Intel compatible)
 1. **Azure Spot Instance**  leave unchecked.   
 1. **Size**   You can leave the size that is currently selected. 
    NOTES: This is how you select the specifications for [CPU](../cloud_glossary/#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00  
+
+
 1. **Administrator Account**
    Just like you need to log-in to your own computer, you must create a user account for the VM.   Select a User name and account that you will easily remember, because you will need it to log-in to the new VM. 
     * username : use any user name you will easily remember.  I use my netid so I can always remember. 
@@ -97,12 +101,13 @@ I want to point out one option that "Delete with VM."    We will talk about this
 
 #### Networking
 
+You must create a 'virtual network' for you VM to be connected to (note historically Azure created this for you).   Click "create new"  to open the new network form.  
 
-Use the defaults for all of these options. 
+**Create Virtual network**
 
-Again note the  "Delete public IP and NIC when VM is deleted" option.  As you follow this exercise you will see how to delete networking resources with the VM. 
-
-Note that you must configure some kind of networking when creating VMs and other resources in the cloud.   These defaults are fine for that and will create networking resources for which you will be charged (but not much). 
+  1. enter a Name : suggest adding "-vnet" to your proposed VM name.  For me this was "dsvm1-billspat-ccf23-vnet
+  2. leave all the rest of the settings as-is with the defaults 
+  3. click the [OK] button at the bottom of this form. 
 
 #### Other Settings
 
@@ -124,15 +129,13 @@ kind of tag can be essential when you are sharing cloud accounts with other memb
 
 1. click "review and create" at the bottom of the screen. 
 
-
-
 If there are errors the form name will have a red dot next to it.  Go back to that form and see what may be the issue. 
 
 If the Validation passed, it will display the approximate hourly cost to use this VM.  Mine says `0.1920 USD/hr`
 
 Click "Create" and the deployment will start.  It will take at most 15 minutes.  
 
-You should kkip down the the **Viewing VM Resources** section below/ 
+Now, please skip down the the **Viewing VM Resources** section below 
 
 <hr>
 
@@ -148,6 +151,8 @@ To connect to Linux you need an terminal or command line interface with an `ssh`
   * On Modern version of Windows, the cmd.exe command prompt has an `ssh` command built in
   * Linux desktop/laptops come with an ssh client
 
+
+<!-- ############## -->
 ### Creating a Linux Virtual Machine
 
 If at any point, or if you are exploring, you can't seem to get the configuration correct (or there is a validation error you can't fix), starting over will not create any resources or incur charges.   Go back to step 1 below. 
@@ -170,8 +175,8 @@ The resource creation forms work as described in the Azure Portal but since we u
 1. The **Subscription** should be "Cloud Computing Fellowship" and
 **resource group** should be your CF resource group (with your netid). 
 
-1. **Virtual machine name**  Name: dsvm-YOURNETID-ccf22
-   Use your actual NetId , for example "dsvm-billspat-ccf22"
+1. **Virtual machine name**  Name: must be unique in the region.  I suggest using your netid to name it, and add abbreviations for what you are creataing and for which activity.  For example   dsvm1-netid-ccf23
+   Use your actual NetId , for example "dsvm1-billspat-ccf23"
    
    Note that different resources have different naming restrictions.  For example VMs the rules are "can be almost anything, but Azure resource names cannot contain special characters \/""[]:|<>+=;,?*@&, whitespace, or begin with '_' or end with '.' or '-' "
 
@@ -183,6 +188,7 @@ The resource creation forms work as described in the Azure Portal but since we u
    You may also see an "availability zone" option appear (perhaps with an error message *"The value must not be empty"*).  Selecting ""No infrastructure Redundancy required" in the availability zone will remove the "availability zone" field and error message. 
 1. **Security Type** Leave as 'standard'
 1. **Image** should be "Data Science Virtual Machine - Unbuntu.."   if this is changed you may have to select it again from the list.   Any Linux image is fine for this tutorial as 
+1. **VM Architecture** leave as x64 (Intel processor compatible)
 1. **Run with Azure Spot discount**  leave unchecked.   
 1. **Size**   You can leave the size that is currently selected, which is based on the pre-set configuration from the previous step.   <br>
    This is how you select the specifications for [CPU](../cloud_glossary/#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00   Click "see all sizes" if you are feeling adventurous --  there are maybe 100 options.  (click the  `[x]` in upper right to close the size selector window)
@@ -194,10 +200,24 @@ The resource creation forms work as described in the Azure Portal but since we u
    1. **password** : something you can remember, but is complex to be secure.  Do **not** use your MSU password or any other passwords you use
  
 
-#####  Disks and Other Settings
+#####  Disks
 
-For this exercise we'll be using the default values for almost all the pages, except for '**Basics**' page.    However you are encouraged to look through these options to see what is involved in creating a virtual machine.  The [Azure VM documentation](https://docs.microsoft.com/en-us/azure/virtual-machines/) covers many of them.   For example a VM requires several networking components.   The good news is that Azure will name and create these for you, which will see.  
+You can leave the defaults for this page. 
 
+#### Networking
+
+You must create a 'virtual network' for you VM to be connected to (note historically Azure created this for you).   Click "create new"  to open the new network form.  
+
+**Create Virtual network**
+
+  1. enter a Name : suggest adding "-vnet" to your proposed VM name.  For me this was "dsvm1-billspat-ccf23-vnet
+  2. leave all the rest of the settings as-is with the defaults 
+  3. click the [OK] button at the bottom of this form. 
+
+
+
+#### other options
+For this exercise we'll be using the default values for almost all the pages, except for '**Basics**' , '**Networking**' and .    However you are encouraged to look through these options to see what is involved in creating a virtual machine.  The [Azure VM documentation](https://docs.microsoft.com/en-us/azure/virtual-machines/) covers many of them.   For example a VM requires several networking components.   The good news is that Azure will name and create these for you, which will see.  
 
 ##### Tags
 
@@ -216,7 +236,6 @@ If the Validation passed, it will display the approximate hourly cost to use thi
 Click "Create" and the deployment will start.  It will take at most 15 minutes.  
 
 Linux Users continue to the next section
-
 
 
 <hr>
@@ -271,33 +290,36 @@ There is a 'connect' link above the 'essentials' list, and a connect link on the
 
 **Connect with RDP**  (remote desktop protocol)  is a Microsoft method for connecting to the graphical desktop.  For Mac/Linux requires additional software (mentioned at the beginning of this page).  
 
-  * In the Azure portal:
+  * Step 1: In the Azure portal:
   
     - click "connect" and select "rdp" if it isn't already.  
     - click "**download RDP file**" button and save the `.rdp` file anywhere on your computer that you find it again
 
-  * On your computer:
+  * Step 2:
     - after it's downloaded, find the  `.rdp` file and double click to open it which should start your remote desktop software.   Mac users must have installed the Microsoft Remote Desktop client app 
     - ignore any security or error messages, click "connect"
-    - Enter the user name and password you used when you created the VM. 
+    - Enter the user name and password you used when you created the VM.  This is not your email address, or the username of your computer, the one you used for the "administrator account" in the *Basics* section of the VM creation form.  
+    - If the VM is not running when you  you will get an error message.
 
   * Alternatively you may also open your RPD software, create a new connection, and copy the IP address listed in the portal, in the Azure VM.  and paste the IP address that is listed on the resource page for the VM.   
 
 ![Entering an IP address into the Windows RDP client](vm_activity/vm_activity_screenshot_remote_desktop_entering_ip_address.jpg)
 
-  * When you connect, if the VM is not running, you will get an error message.  Here is what the Windows screen looks like: 
+  *   Here is what the Windows screen may look like: 
 
    ![Windows remote desktop Certificate Warning](vm_activity/vm_activity_screenshot_remote_desktop_cert_warning.jpg)
 
    This is because we are using a temporary certificate but it is secure.  Click "Yes" 
 
-  * Enter the Username and password you used when  configuring the VM in the "Basics" section above.  
-    * you may be able to simply enter the user name and password directly
-    * If not, in the  Windows Security window, select More choices and then Use a different account. Enter the credentials for an account on the virtual machine and then select OK.  If the user account you entered does not work, you may have to put your user account in domain\username form, and in this case, the domain is the name of the virtual machine and it is entered as vmname\username, with a back-slash in-between, and with the same password. 
+  * Enter the Username and password you used when  configuring the VM in the "Basics" section above.   
+    * For some versions of Windows, you need to click "More choices" in the Windows Security menu, otherwise the default is often your Microsoft or your laptop account
+    * Enter the user id and password you used when you created the VM.  If the user account you entered does not work, you may have to put your user account in domain\username form, and in this case, the domain is the name of the virtual machine and it is entered as vmname\username, with a back-slash in-between, and with the same password. 
 
-Once you connect, you may see Windows starting up and installing things.  Feel free to close any windows.  Once the installations are finished, you may use the machine as you would any other windows computer.  If you type Rstudio in the search box, you may launch an  Rstudio session on this remote computer.    It also has Python, many python libs and Jupyter notebook.  
+Once you connect for the first time, the Windows VM will provision the VM user account and will install things during and after start-up.  Feel free to close any windows.  Once the installations are finished, you may use the machine as you would any other windows computer.  You can start Jupyter notebooks to work with Python.  Previous version of the Azure Data Science Virtual Machine has Rstudio installed on it, but the latest version only seems to have the base R interface. 
 
-We will cover how to transfer code and files to a VM in a later session. 
+We will cover how to transfer code and files to a VM in a later session.  If you are comfortable with using the command line, you can use `git clone...` to download code to run.  
+
+Explore to see what is already pre-installed on this VM.   If you start with a standard version of Windows, you will have to install your own software.  
 
 When you finished with your remote session you may simply close the remote windows (leaving the VM running.  See below for how to turn it off and delete it. 
 
@@ -318,6 +340,7 @@ When you log-in you will be connected to the Windows command prompt (e.g. `C:\Us
 To Exit, type `exit` at the command prompt. 
 
 **Next Steps:** For information on turning off the VM and for eventually deleting the VM, scroll down below the Linux section as these operations are the same in the Azure portal for Linux or Windows virtual machines.  
+
 
 ### Connecting to a **Linux** VM using SSH
 
