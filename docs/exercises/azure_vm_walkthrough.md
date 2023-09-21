@@ -83,7 +83,7 @@ The resource creation forms work as described in the Azure Portal but since we u
 1. **VM Architecture** Leave as the default x64 (Intel compatible)
 1. **Azure Spot Instance**  leave unchecked.   
 1. **Size**   You can leave the size that is currently selected. 
-   NOTES: This is how you select the specifications for [CPU](../cloud_glossary/#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00  
+   NOTES: This is how you select the specifications for [CPU](../cloud_glossary.md#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00  
 
 
 1. **Administrator Account**
@@ -191,7 +191,7 @@ The resource creation forms work as described in the Azure Portal but since we u
 1. **VM Architecture** leave as x64 (Intel processor compatible)
 1. **Run with Azure Spot discount**  leave unchecked.   
 1. **Size**   You can leave the size that is currently selected, which is based on the pre-set configuration from the previous step.   <br>
-   This is how you select the specifications for [CPU](../cloud_glossary/#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00   Click "see all sizes" if you are feeling adventurous --  there are maybe 100 options.  (click the  `[x]` in upper right to close the size selector window)
+   This is how you select the specifications for [CPU](../cloud_glossary.md#cpu) and memory.  The size you for this exercise doesn't matter for the outcome, but it will show prices which may be interesting.  If you click this drop-down menu you may see some other sizes and prices.  The Monthly price assumes 24 hour/day operation.  Your price to experiment will often be less than $1.00   Click "see all sizes" if you are feeling adventurous --  there are maybe 100 options.  (click the  `[x]` in upper right to close the size selector window)
 1. **Administrator Account**
    Just like you need to log-in to your own computer, you must create a user account for the VM.   
    1. **Authentication Type**  For the purpose of this exercise, select "password"  SSH Keys are strongly recommened but to keep this simple we will use a password. 
@@ -269,7 +269,7 @@ There are many details here but some immediate things to notice:
 
   * in the top row are buttons to connect, start, restart and stop the vvm.   
   * in the top, "essentials" section the  "status" should be "running."
-  * on the right side is the assigned [IP address](../cloud_glossary/#ip-address) which you need to connect.   Highlight and copy and paste this address.   If you click the link on the address, it will take you to a new resource page just for the IP address (which is a distinct resource assigned to this VM resource)
+  * on the right side is the assigned [IP address](../cloud_glossary.md#ip-address) which you need to connect.   Highlight and copy and paste this address.   If you click the link on the address, it will take you to a new resource page just for the IP address (which is a distinct resource assigned to this VM resource)
   
 
 ## Connecting
