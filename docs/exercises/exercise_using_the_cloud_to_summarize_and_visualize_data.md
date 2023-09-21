@@ -47,7 +47,7 @@ You can use the Azure portal to accomplish many if not not all of these tasks, e
     - this will output images of plots (PDF or PNG formatted)
 - save output files to cloud storage
 - turn off delete resources related to the VM
-- determine total costs. See the section on costs in the [cloud organization](session_organization) session. 
+- determine total costs. See the [topic on costs](../topics/azure_cloud_cost_basics.md)
     - if you commplete this in less than a day, the costs for these resources will not be immediately visible in the Azure cost analysis tool.  Potentially wait until next day to view the costs in the Azure portal. 
     - This analysis was very small, so the costs will be very very small. 
     - uses the outputs from the costs analysis to add a list of resources and costs to your report.

@@ -128,7 +128,7 @@ For example Azure [Logic Apps](https://azure.microsoft.com/en-us/services/logic-
 
 ## References
 
-See our [references page](../references) for curated Azure links.   For AWS, see 
+See our [references page](../references/index.md) for curated Azure links.   For AWS, see 
 
   * [https://aws.amazon.com/tools/](https://aws.amazon.com/tools/) 
   * about the AWS CLI: https://aws.amazon.com/cli/
