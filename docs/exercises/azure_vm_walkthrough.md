@@ -18,7 +18,7 @@ You need an Azure account with an active subscription, and a resource group of y
 
 This exercise assumes you understand how to use the Azure Portal, which is covered in the [Azure Portal Walkthrough](./azure_portal_walkthrough.md).  In addition it's helpful to know what a virtual machine is but it's not crucial to complete the exercise.  For more information on VMs see the readings [session 2](../sessions/02_how_to_cloud.md)
 
-It's helpful to have basic understanding of the ["Client-Server"](cloud_glossary/#client-server) model of computing as the VM we create will be running servers (remote desktop server for Windows, and ssh command line server for Linux)
+It's helpful to have basic understanding of the ["Client-Server"](../cloud_glossary.md#client-server) model of computing as the VM we create will be running servers (remote desktop server for Windows, and ssh command line server for Linux)
 
 Finally we find that there are many layers of concepts related in this exercise related to IT Infrastructure, and we are happy to provde clarification as needed. 
 
@@ -430,5 +430,5 @@ If you follow these, just remember to delete the resources you create when you a
 
 ---
 
-Return to the [Session 2 page](index.md)
+Return to the [Session 2 page](../sessions/02_how_to_cloud.md)
 
