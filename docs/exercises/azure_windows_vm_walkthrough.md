@@ -1,6 +1,8 @@
 # Exercise: Creating a Windows Virtual Machine (VM)
 
-[**Please see our updated version that covers both Windows and Linux**](azure_vm_walkthrough.md)
+This is a previous version of a windows-only VM walk through from 2020, kep for historical reasons
+
+[**Please use our updated version that covers both Windows and Linux**](./azure_vm_walkthrough.md)
 
 
 
@@ -11,7 +13,7 @@
 
 ## About 
 
-This is an exercise and introduction to creating Virtual Machines (VMs) and related resources using the Azure Portal.  This exercise assumes you understand how to use the Azure Portal, which is covered in the [Azure Portal Walkthrough](azure_portal_walkthrough.md).  In addition it's helpful to know what a virtual machine is but it's not crucial to complete the exercise.  For more information on VMs see the [slides from session 2](msu-cloud-fellowship21-session2.pdf) and readings from the ["Virtual Machine Background"](index.md#readings) section
+This is an exercise and introduction to creating Virtual Machines (VMs) and related resources using the Azure Portal.  This exercise assumes you understand how to use the Azure Portal, which is covered in the [Azure Portal Walkthrough](azure_portal_walkthrough.md).  In addition it's helpful to know what a virtual machine is but it's not crucial to complete the exercise.  For more information on VMs see [session 2](../sessions/02_how_to_cloud.md)).  
 
 
 <!-- 
