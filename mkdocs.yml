@@ -5,6 +5,8 @@ theme:
     - navigation.tracking
   palette:
     primary: black
+plugins:
+  - search
 markdown_extensions:
   - meta
   - attr_list
