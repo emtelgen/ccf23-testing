@@ -244,7 +244,11 @@ Linux Users continue to the next section
 
 ## **Viewing VM Resources in your Resource group (Windows and Linux)**
 
-*While the deployment is in progress you may explore the operation details or click any of the resources that have been created.*   
+*   
+
+You have a few options now.   You can wait for the deployment to complete in the portal.  When it's ready, the Azure portal will display a message and a link to "go to resource." 
+
+However you can also go to the page that lists the items in your resource group to find and explore while the deployment is in progress. 
 
 1. Open your resource group in the portal:  
     1. click the portal menu on the top left, and select "resource groups"
@@ -265,11 +269,16 @@ To see the details for your virtual machine, click the VM in your resource group
 [![Azure Portal view of an example VM](vm_activity/vm_activity_screenshot_vm_resource_portal_page_no_highlights.png)](vm_activity/vm_activity_screenshot_vm_resource_portal_page_no_highlights.png){:target="_blank"}
 *click for larger view*
 
+Note that the Azure portal will show a few errors/warnings if the deployment is not complete.   You may see a warning that the 'agent' in the VM is not working, but you can ignore it.   It will go away when the VM configuration is complete. 
+
+![VM status agent not complete](./vm_activity/vm_not_ready_error.jpg)
+
+
 There are many details here but some immediate things to notice: 
 
   * in the top row are buttons to connect, start, restart and stop the vvm.   
   * in the top, "essentials" section the  "status" should be "running."
-  * on the right side is the assigned [IP address](../cloud_glossary.md#ip-address) which you need to connect.   Highlight and copy and paste this address.   If you click the link on the address, it will take you to a new resource page just for the IP address (which is a distinct resource assigned to this VM resource)
+  * on the right side is the assigned [IP address](../cloud_glossary.md#ip-address) which you need to connect.  If you are connecting with RDP, then then RDP file has this address in it so you don't need to remember it.  However this is the IP address you can use to connect directly from your Remote Desktop client or the SSH client.   For now just need to know that this IP address is here on the main VM page.   Note that, if you click the link on the address, it will take you to a new resource page just for the IP address (which is a distinct resource assigned to this VM resource)
   
 
 ## Connecting
@@ -286,7 +295,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/connect-logon
 
 Here are more detailed instructions: 
 
-There is a 'connect' link above the 'essentials' list, and a connect link on the left side - they both go to the same place. 
+There is a 'connect' link on the left side in the "Settings" section of the left menu.  
 
 The connect pane looks something like this:  ![connect pane](./vm_activity/azure_vm_connect_pane_2023.jpg)
 
@@ -294,12 +303,15 @@ The connect pane looks something like this:  ![connect pane](./vm_activity/azure
 
   * Step 1: In the Azure portal:
   
-    - click "connect" and in the "native rdp" box, click "select
+    - click "connect" on the left side menu if haven't already
+    - in the "native rdp" box, click "select"
+    - optional: if the machine is still deloying or turned off, you may get a warning that the machine is stopped.  click start VM. 
+    ![Azure connection VM stopped  warning](./vm_activity/your_vm_is_stopped_error.jpg)
     - a new pane displays, that may look like this: 
     ![Azure rdp connect pane 2023](./vm_activity/azure_vm_connect_pane_2023.jpg)
-    - it may take a few seconds for Azure to configure the VM to use RDP, wait for the gray "configure" button to save "configured"
+    - it may take a few seconds for Azure to configure the VM to use RDP, with the message that "Auzre is configuring... "When it's working on it, you will see it say "validating" in a gray box.     Some users found that it never finished!   However the VM is still available for a connection.    You may wait for the grey "validating" button to change to "configured" but if it does not appear to be completing, please move on to the next step anyway. 
     - click "**download RDP file**" button and save the `.rdp` file anywhere on your computer that you find it again
-    - note that at one point I had the error message "VM Not Started."  I believe I didn't wait long enough for it to be provisioned.   Click the "start VM" on this message
+
 
   * Step 2:
     - after it's downloaded, find the  `.rdp` file and double click to open it which should start your remote desktop software.   Mac users must have installed the Microsoft Remote Desktop client app 
