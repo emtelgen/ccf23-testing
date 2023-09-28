@@ -17,12 +17,21 @@ Central to using cloud for nearly all services is storing data.   Cloud storage 
   
 Cloud storage was engineered to save millions of files for millions of users and will take some changes to your approach to understanding how it works. 
 
+## Activities
 
-- [Azure Cloud Storage for Researchers](../topics/azure_cloud_storage_for_researchers.html) (Slides)
+- Download and install the [Azure Cloud Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)  See the **"Download now"** button at the top of that page.  You may review the content of the page
+
+- We did this in the first session, but if you want to work through this again for complete exercises in [Creating Azure Cloud Storage Accounts](../exercises/exercise_create_storage_account.md) to create and use storage.  
+
 
 - Exercise: [Azure Storage Pricing](../exercises/storage_pricing_exercise.md) 
 
+<!-- https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows?source=recommendations -->
+
 ## Readings
+
+
+- [Azure Cloud Storage for Researchers](../topics/azure_cloud_storage_for_researchers.html) (Slides)
 
 - Not a bad, high-level introduction : [Edureka Azure Storage Tutorial](https://www.edureka.co/blog/azure-storage-tutorial/)  (there are several pop-ups and ads, but it's a good level of of information )
 - [Storage as a Service](https://s3.us-east-2.amazonaws.com/a-book/storage.html) from "Cloud Computing for Science and Engineering"  
@@ -35,13 +44,6 @@ Cloud storage was engineered to save millions of files for millions of users and
 
 - [Introduction to Azure managed disks](https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview)  This has more techincal background than necessary but could be very helpful.  
 
-## Activities
-
-- Download and install the [Azure Cloud Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)  See the **"Download now"** button at the top of that page.  You may review the content of the page
-
-- We did this in the first session, but if you want to work through this again for complete exercises in [Creating Azure Cloud Storage Accounts](../exercises/exercise_create_storage_account.md) to create and use storage.  
-
-https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows?source=recommendations
 
 ## Post-session discussion points
 
