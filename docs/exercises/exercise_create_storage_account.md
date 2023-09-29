@@ -2,15 +2,15 @@
 title: Create a Storage Account
 ---
 
-# Activity: creating a "storage account" with the Azure portal
+# Creating a "Storage Account" with the Azure Portal
 
 ![old post office boxes](../img/old_po_boxes_tim-evans-Uf-c4u1usFQ-unsplash.jpg)
 
-from **MSU Cloud Computing Fellowship [Session 1](../sessions/01_introduction.md)**
+**(From: [Session 1 - Introduction](../sessions/01_introduction.md))**
 
-This is a good activity to explore the azure portal by creating a new resource.  Storage accounts do not accrue many costs until you fill them up with data.  Please review the exercise [Azure Portal Walk-through](./azure_portal_walkthrough.md) if you haven't. 
+This is a good activity to explore the Azure portal by creating a new resource.  Storage accounts do not accrue much cost until you fill them up with data.  Please review the exercise [Azure Portal Walk-through](./azure_portal_walkthrough.md) if you haven't. 
 
-If  we have not talked about cloud storage, and you don't need to know about Cloud storage to complete this tutorial.  This is simply an exercise to see how to create something use the Azure portal, and cloud storage is a benign (and very inexpensive) resource to use an example.  
+We have not talked about Cloud storage, however you don't need to know about Cloud storage to complete this tutorial.  This is simply an exercise to see how you would create something using the Azure portal, and Cloud storage is a benign (and very inexpensive) resource to use an example.  
 
 Note that a "storage account" is not the same as "disk" you will see when you create a virtual machine.  We will discuss the difference in detail in the session on storage. 
 
@@ -19,7 +19,7 @@ Note that a "storage account" is not the same as "disk" you will see when you cr
   * An Azure Account with valid subscription
   * A Resource group
 
-*All members of the current Cloud Computing Fellowship cohort have these things*
+*All members of the current Cloud Computing Fellowship cohort have these things.*
 
 ## Creating a storage account step-by-step. 
 
