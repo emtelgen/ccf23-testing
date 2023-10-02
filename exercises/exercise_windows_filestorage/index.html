@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../projects/">
+        <link rel="prev" href="../exercise_using_the_cloud_to_summarize_and_visualize_data/">
       
       
-        <link rel="next" href="../azure_vm_walkthrough/">
+        <link rel="next" href="../storage_pricing_exercise/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Azure Portal Walk-through - MSU Cloud Computing Fellowship</title>
+        <title>Exercise: Using File Storage with Windows VM - MSU Cloud Computing Fellowship</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#exercise-azure-portal-walk-through-and-storage-account-creation" class="md-skip">
+        <a href="#exercise-using-file-storage-with-windows-vm" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Azure Portal Walk-through
+              Exercise: Using File Storage with Windows VM
             
           </span>
         </div>
@@ -327,29 +327,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Azure Portal Walk-through
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../azure_portal_walkthrough/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -358,61 +338,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#about" class="md-nav__link">
-    About
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#orientation-to-the-azure-portal" class="md-nav__link">
-    Orientation to the Azure Portal
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bonus-what-can-you-do-here" class="md-nav__link">
-    Bonus: What can you do here?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#next-steps-create-a-storage-account" class="md-nav__link">
-    Next Steps: Create a Storage Account
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about-portal-resource-pages" class="md-nav__link">
-    About Portal "Resource" Pages
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -522,9 +447,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../exercise_windows_filestorage/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Exercise: Using File Storage with Windows VM
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -533,6 +478,95 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-file-storage-with-windows-vm-step-by-step" class="md-nav__link">
+    Using File Storage with Windows VM step-by-step.
+  </a>
+  
+    <nav class="md-nav" aria-label="Using File Storage with Windows VM step-by-step.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-step-create-a-storage-account" class="md-nav__link">
+    First Step: Create a Storage Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#second-step-create-an-azure-file-share" class="md-nav__link">
+    Second Step: Create an Azure File Share
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#third-step-deploying-a-vm" class="md-nav__link">
+    Third Step: Deploying a VM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fourth-step-connect-to-your-vm" class="md-nav__link">
+    Fourth Step: Connect to Your VM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fifth-step-map-the-azure-file-share-to-a-windows-drive" class="md-nav__link">
+    Fifth Step: Map the Azure File Share to a Windows Drive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sixth-step-working-with-snapshots" class="md-nav__link">
+    Sixth Step: Working with Snapshots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seventh-step-delete-the-resources" class="md-nav__link">
+    Seventh Step: Delete the Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -955,37 +989,71 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about" class="md-nav__link">
-    About
+  <a href="#overview" class="md-nav__link">
+    Overview
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#orientation-to-the-azure-portal" class="md-nav__link">
-    Orientation to the Azure Portal
+  <a href="#using-file-storage-with-windows-vm-step-by-step" class="md-nav__link">
+    Using File Storage with Windows VM step-by-step.
+  </a>
+  
+    <nav class="md-nav" aria-label="Using File Storage with Windows VM step-by-step.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-step-create-a-storage-account" class="md-nav__link">
+    First Step: Create a Storage Account
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#bonus-what-can-you-do-here" class="md-nav__link">
-    Bonus: What can you do here?
+        
+          <li class="md-nav__item">
+  <a href="#second-step-create-an-azure-file-share" class="md-nav__link">
+    Second Step: Create an Azure File Share
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#next-steps-create-a-storage-account" class="md-nav__link">
-    Next Steps: Create a Storage Account
+        
+          <li class="md-nav__item">
+  <a href="#third-step-deploying-a-vm" class="md-nav__link">
+    Third Step: Deploying a VM
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#about-portal-resource-pages" class="md-nav__link">
-    About Portal "Resource" Pages
+        
+          <li class="md-nav__item">
+  <a href="#fourth-step-connect-to-your-vm" class="md-nav__link">
+    Fourth Step: Connect to Your VM
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fifth-step-map-the-azure-file-share-to-a-windows-drive" class="md-nav__link">
+    Fifth Step: Map the Azure File Share to a Windows Drive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sixth-step-working-with-snapshots" class="md-nav__link">
+    Sixth Step: Working with Snapshots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seventh-step-delete-the-resources" class="md-nav__link">
+    Seventh Step: Delete the Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1004,52 +1072,196 @@
                   
 
 
-<h1 id="exercise-azure-portal-walk-through-and-storage-account-creation">Exercise: Azure Portal Walk-through and Storage account creation</h1>
-<p>from <strong>MSU Cloud Computing Fellowship <a href="../../sessions/01_introduction/">Session 1</a></strong>  </p>
-<h2 id="about">About <img align="right" alt="From Marco Mons on Unsplash" src="../../img/marco-mons-kgcA52f8XbE-unsplash.jpg" /></h2>
-<p>This is an exercise and introduction to the web interface to manage Microsoft Azure cloud services.   Prior to doing this exercise, please read  <a href="../../topics/azure_organization/">Azure Organization</a> For more background on how azure is structured.   </p>
-<p>For definition of terms used in this walkthrough , refer to our <a href="../../cloud_glossary/">Cloud Glossary</a> 
-including "<a href="../../cloud_glossary/#resource">resource</a>", "<a href="#">azure resource manager</a>" and "<a href="../../cloud_glossary/#resource_group">resource group</a>"  or our <a href="../../references/">list of cloud references</a> for introduction to cloud computing. </p>
-<p>For this activity we'll be using the web interface which Azure calls the "Portal" but that is only one of several ways to interface with Azure that we will learn about.   Many of the activities you can accomplish in the portal you can accomplish with the other (command line or code) interfaces. </p>
-<p>Azure's own overview of the Portal is here: <a href="https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-overview">https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-overview</a>  Please refer to that as well as this material.  </p>
-<p>There is a corresponding video that we've made that includes infrmation about the portal, and also creating a storage account.  </p>
-<h2 id="orientation-to-the-azure-portal">Orientation to the Azure Portal</h2>
-<p><a href="https://mediaspace.msu.edu/media/MSU+Cloud+FellowshipA+Introdcution+to+the+Azure+Portal+Web+Interface/1_8vo4141a">
-<img alt="Link to Video - Azure Portal Introduction" src="../../img/video_titles/azure_portal_video_title.jpg" />
-</a></p>
-<p>The link above is to a video that walks through the description and tutorial steps below, hosted on  MSU MediaSpace ( requires MSU Log-in).  Note this video also walks through creating a storage account.   </p>
-<p><img alt="Example Azure Portal Dashboard" src="../../img/example_portal_dashboard.png" />
-This assumes you have an Azure account and a valid subscription.   For the purposes of this introduction, we assume that your account currently does not have ability to create a new subscription, resource group, </p>
+<h1 id="exercise-using-file-storage-with-windows-vm">Exercise: Using File Storage with Windows VM</h1>
+<h2 id="overview">Overview</h2>
+<ul>
+<li>Not all versions of Windows can use this.  For much more detail, see the Azure documentation page <a href="https://learn.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows">"Mount SMB Azure file share on Windows"</a></li>
+</ul>
+<h2 id="using-file-storage-with-windows-vm-step-by-step">Using File Storage with Windows VM step-by-step.</h2>
+<h4 id="first-step-create-a-storage-account">First Step: Create a Storage Account</h4>
 <ol>
-<li>Log-in to <a href="https://portal.azure.com">https://portal.azure.com</a> with your MSU Netid.   <ol>
-<li>If you  are a current member of the fellowship and you have difficulty logging in, please <a href="../../contact/">contact us</a> right away. </li>
+<li>We have already set up storage accounts in a previous tutorial. Refer back to the tutorial (<a href="../exercise_create_storage_account/">Creating Azure Cloud Storage Accounts</a>) if you still need to create one, however the one you have currently should work for this tutorial.</li>
 </ol>
-</li>
-<li>orientation: dashboard view. 
-   Azure portal first presents a "dashboard" which is organized into panels that show some aspect of your cloud account.  You may alter the panels on this dashboard  to show you the services and aspects of azure that are most important to you.   For information on how to create customize your dashboard, see "<a href="https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards">Create a dashboard in the Azure portal</a>."    In the standard, default version of the dashboard the first panel is a list of resources.  If you have not created any resources yet you won't see anything.  We will explorer resources later in this introduction. <br />
-   The standard dashboard panes are a list of your current resources (which may be in multiple resource groups), an advertisement with a link to learn about some new Azure service, and more links to create things the Azure has decided are most important to you.   We will focus on the "All Resources Pane"
-   If you click on anything here you can almost always use the back button to get back to the dashboard, or use the menu (described below)</li>
-<li>Top Bar Menu: the top menu ( three horizontal bars) is are links to many of the things also on the main dashboard. The "home" view is not the same as the dashboard but is a list of links to things Azure guess you may want to create, and a list of all of your resources.   If you click "resource groups" in this list, you should see only one resource group (if any) unless you've been added to others or a different subscription. </li>
-<li>Search bar: in the middle of the top of the screen is white box in which you can type search terms include the kind of resource you want to see or create, or part of the name of specific resource you've created.    This is what I use to create and find resources most of the time (and rarely use the links provided), more on that later. </li>
+<h4 id="second-step-create-an-azure-file-share">Second Step: Create an Azure File Share</h4>
+<ol>
 <li>
-<p>Shortcut buttons: the next few icons are short cuts to other functionality in the portal that we will cover in the future.  Most are not critical. </p>
+<p>Go to your Storage Account</p>
+<ul>
+<li>On the homepage, there should be a list of "Resources" in the middle of the page. Click the one with Type listed as <strong>Storage Account</strong></li>
+</ul>
 </li>
 <li>
-<p>A note about portal navigation:  When you click anything in the portal, it creates a new window without reloading the browser and with an <strong>X</strong> at the top right.  This mimics a "close window" function and You can use the X return to the dashboard, or you may simply use the menu and go to where you need to  </p>
+<p>Select File Shares</p>
+<ul>
+<li>On the left side of the screen there is a menu. Under the "Data Storage" section is the <strong>File Shares</strong> button</li>
+</ul>
+</li>
+<li>
+<p>Add a File Share</p>
+<ul>
+<li>Towards the top of the screen click the <strong>+ File Share</strong> button</li>
+</ul>
+</li>
+<li>
+<p>File Share Properties</p>
+<ul>
+<li>Basics<ol>
+<li>Name the File Share <strong>qsfileshare</strong></li>
+<li>Keep Tier as <strong>Transaction Optimized</strong></li>
+</ol>
+</li>
+<li>Click <strong>Review + Create</strong></li>
+</ul>
+</li>
+<li>
+<p>Create a new txt file titled <strong>qsTestFile</strong> on your local machine</p>
+<ul>
+<li>Go to your file folder, and in any directory of your choice - Right Click and select a new .txt file</li>
+</ul>
+</li>
+<li>
+<p>With your file share open in Azure, click <strong>Upload</strong> (on the top middle section of the screen)</p>
+</li>
+<li>
+<p>Upload your created txt file</p>
+<ul>
+<li>Select <strong>Browse your Files</strong> and navigate to the directory you chose earlier, then attach your txt file</li>
+</ul>
 </li>
 </ol>
-<p>Notice that like most things there are 4-5 ways to get to anywhere.  </p>
-<h2 id="bonus-what-can-you-do-here">Bonus: What can you do here?</h2>
-<p>The primary purpose of using the portal and your resource group is to create things, and manage and monitor those things.   For the purpose of this activity - since you don't really have anything - we can simply look at the 'activity log' in the left side-panel near the top.<br />
-   - this opens a new table of columns Operation name, Status, Time, Time stamp, etc that is probably empty for you.<br />
-   - Tables of information like this in the portal have filters at the top.  The default activity is just for the previous 6 hours.   If you click on the Find that filter called "timespan" and select 1 week (or longer) you can see when I created the resource group and the budget.    </p>
-<p><img alt="screen shot filtering a table in azure" src="../azure_portal_activity_log_filter_screenshot.jpg" /></p>
-<h2 id="next-steps-create-a-storage-account">Next Steps: Create a Storage Account</h2>
-<p>For a good follow up exercise, see <a href="../exercise_create_storage_account/">Creating a Storage Account with the Portal</a></p>
-<h2 id="about-portal-resource-pages">About Portal "Resource" Pages</h2>
-<p>Most cloud resources in the portal have a list of categories on the left side, and pages for each category in the center.  The first page is the "Overview"  which has the resource group, subscription, and other info important for that resource.   this followed by the "Activity Log" showing how the resource has been used.   Each of the following items on the left side is a new page of additional options to alter how the resource is configured.  For example if you click the "tags" section you see the tags you added (if any) and can modify or add new tags. </p>
-<p>Some of the options are not available on the forms when you create the resource, or the names of the options on these resource pages do not match the forms when you created the resources.   In that case you may have to use two steps to configure the resource as you like, or better consider using a programmatic <a href="../../topics/intro_to_cloud_interfaces/">interface</a></p>
-<p>Again we did not discuss any of the characteristics of cloud storage or how to use it but you should now have enough familiarity with the azure portal to follow other tutorials to create and use storage or other resources.  </p>
+<h4 id="third-step-deploying-a-vm">Third Step: Deploying a VM</h4>
+<p>We've created the storage account and the file share with a file in it. We now need to deploy a VM.</p>
+<ol>
+<li>
+<p>Create the Resource</p>
+<ul>
+<li>Expand the left side menu and click <strong>Create a Resource</strong></li>
+<li>Under "Popular Azure services" select <strong>Virtual machine</strong></li>
+</ul>
+</li>
+<li>
+<p>Setting the VM Properties</p>
+<ul>
+<li>Basics<ol>
+<li>Resource Group: Select the Cloud Computing Fellowship Resource group</li>
+<li>Virtual machine name: qsVM</li>
+<li>Security Type: Standard</li>
+<li>Image: Windows Server 2019 Datacenter - x64 Gen2</li>
+<li>Set your Username and Password to something you will remember for logging in to the VM</li>
+<li>Select Inbound Ports: HTTP and RDP (3389)</li>
+</ol>
+</li>
+<li>Select <strong>Review and Create</strong></li>
+<li>Select <strong>Create</strong></li>
+<li>When deployment is done, select <strong>Go to Resource</strong></li>
+</ul>
+</li>
+</ol>
+<h4 id="fourth-step-connect-to-your-vm">Fourth Step: Connect to Your VM</h4>
+<ol>
+<li>
+<p>Select <strong>Connect</strong> on the VM properties page</p>
+</li>
+<li>
+<p>Click <strong>Select</strong> on the Native RDP File</p>
+</li>
+<li>
+<p>Download the RDP File</p>
+<ul>
+<li>On the right side menu select the <strong>Download RDP File</strong> under section 3</li>
+</ul>
+</li>
+<li>
+<p>Open the VM on your local machine</p>
+<ul>
+<li>Open the downloaded RDP file</li>
+<li>Select <strong>Connect</strong> on the pop-up</li>
+<li>Put the username and password that you created in the VM setup (if you are on a windows machine you may need to click "More Choices" before logging in)</li>
+<li>You may get a certificate warning, you can ignore that</li>
+</ul>
+</li>
+</ol>
+<h4 id="fifth-step-map-the-azure-file-share-to-a-windows-drive">Fifth Step: Map the Azure File Share to a Windows Drive</h4>
+<ol>
+<li>In the Azure portal, navigate to your qsfileshare and select <strong>Connect</strong></li>
+<li>Click <strong>Show Script</strong> in the right-hand menu pop-up</li>
+<li>This will display a script in the same menu. Copy and paste this script into your notepad.</li>
+<li>Go back to your VM<ul>
+<li>Open <strong>Windows Powershell</strong></li>
+<li>Paste in the contents of your notepad</li>
+<li>Press Enter</li>
+<li>You will see "Credential added successfully" when it works</li>
+</ul>
+</li>
+</ol>
+<h4 id="sixth-step-working-with-snapshots">Sixth Step: Working with Snapshots</h4>
+<ol>
+<li>
+<p><strong>Create a Share Snapshot</strong></p>
+<ul>
+<li>Adding a snapshot in the Azure Portal<ol>
+<li>In the Azure Portal, navigate to the file share</li>
+<li>Select <strong>Snapshots</strong> (located in the left hand side menu)</li>
+<li>Select <strong>+ Add a Snapshot</strong> and click Ok</li>
+</ol>
+</li>
+<li>In your VM, open the qstestfile.txt and type "This file has been modified". </li>
+<li>Save and close the file.</li>
+<li>Create another snapshot (repeat steps a-c)</li>
+</ul>
+</li>
+<li>
+<p><strong>Browse a Share Snapshot</strong></p>
+<ul>
+<li>On your file share, select <strong>Snapshots</strong></li>
+<li>Select the first Snapshot in the list</li>
+<li>Select <strong>qsTestFile.txt</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Restore from a Snapshot</strong></p>
+<ul>
+<li>Ensure you're in the file share Snapshot tab</li>
+<li>Right click the qsTestFile</li>
+<li>Select <strong>Restore</strong></li>
+<li>Select <strong>Overwrite Original File</strong> and click Ok</li>
+<li>Open the file in the VM. It should be restored and have no text in it.</li>
+</ul>
+</li>
+<li>
+<p><strong>Delete a Share Snapshot</strong></p>
+<ul>
+<li>On your file share Snapshot list, select the last snapshot in the list</li>
+<li>Select <strong>Delete</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Use a Share Snapshot in Windows</strong></p>
+<ul>
+<li>You can view snapshots from your mounted Azure file share by using the Previous Versions tab<ol>
+<li>In your VM File Explorer, locate the mounted share. It should be titled <strong>qsfileshare</strong> and have a boxy symbol</li>
+<li>Select <strong>qstestfile.txt</strong> and Right Click</li>
+<li>Select <strong>Properties</strong> from menu</li>
+<li>Select <strong>Previous Versions</strong> - this shows you a list of previous snapshots</li>
+<li>Select <strong>Open</strong></li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Restore from a Previous Version</strong></p>
+<ul>
+<li>In the same screen we were just in, rather than selecting "Open", select "Restore"</li>
+</ul>
+</li>
+</ol>
+<h4 id="seventh-step-delete-the-resources">Seventh Step: Delete the Resources</h4>
+<ol>
+<li>Click on your Resource Group</li>
+<li>Select everything except the storage account you created in Session 1</li>
+<li>Select <strong>Delete</strong> NOT "Delete Resource Group" to delete the resources</li>
+<li>Go to your storage account and delete the fileshare as well</li>
+</ol>
 
 
 

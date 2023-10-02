@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.1">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.3.2">
     
     
       
@@ -24,10 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.72749a73.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.30068a00.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.a5377069.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -407,26 +407,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercises/exercise_create_azure_vm/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Exercise: Creating and Connecting to a Virtual Machine (VM) for both Windows and Linux
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../exercises/exercise_create_storage_account/" class="md-nav__link">
         
   
@@ -452,6 +432,26 @@
   
   <span class="md-ellipsis">
     Session 3 exercise - analyzing data on a VM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exercises/exercise_windows_filestorage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise: Using File Storage with Windows VM
   </span>
   
 
@@ -684,15 +684,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#readings" class="md-nav__link">
-    Readings
+  <a href="#activities" class="md-nav__link">
+    Activities
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#activities" class="md-nav__link">
-    Activities
+  <a href="#readings" class="md-nav__link">
+    Readings
   </a>
   
 </li>
@@ -705,8 +705,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#optional-activities" class="md-nav__link">
-    Optional Activities:
+  <a href="#activities_1" class="md-nav__link">
+    Activities:
   </a>
   
 </li>
@@ -962,15 +962,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#readings" class="md-nav__link">
-    Readings
+  <a href="#activities" class="md-nav__link">
+    Activities
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#activities" class="md-nav__link">
-    Activities
+  <a href="#readings" class="md-nav__link">
+    Readings
   </a>
   
 </li>
@@ -983,8 +983,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#optional-activities" class="md-nav__link">
-    Optional Activities:
+  <a href="#activities_1" class="md-nav__link">
+    Activities:
   </a>
   
 </li>
@@ -1007,24 +1007,35 @@
 <h1 id="session-3-cloud-storage">Session 3: Cloud Storage</h1>
 <p><img alt="storage_units" src="../../img/storage_units.jpg" /></p>
 <h2 id="introduction">Introduction</h2>
-<p>Central to using cloud for nearly all services is storing data.   Cloud storage is quite different from what most are used to related to saving a file to your disk or USB removable media or even our HPC.   During our <a href="../session_how_to_cloud">workshop on creating a VM</a> we didn't use cloud storage, we simply create a VM "virtual disk" that is attached to the VM just like your hard drive is attached to your own computer.   However there are disadvantages to this : 
+<p>Central to using cloud for nearly all services is storing data.   Cloud storage is quite different from what most are used to related to saving a file to your disk or USB removable media or even our HPC.   During the previous <a href="../02_how_to_cloud/">workshop</a> we created a VM but didn't use cloud storage, we simply create a VM "virtual disk" that is attached to the VM just like your hard drive is attached to your own computer.   However there are disadvantages to this : 
   1. the main OS disk is typically deleted when the VM is deleted, although you can create a 'durable' disk to share
   1. the data on the main OS disk is tied to that Virtual Machine and hence that operating system, that is, it's typically inaccessible from other cloud services 
   1. it is limited in size and scope  The largest of virtual disks are around 1 TB.  Azure Cloud storage accounts are limited to 5 TB and you may have multiple storage accounts. <br />
   1. You can only move data to/from a virtual or shared disk storage using a virtual machine
   1. Most importantly virtual disks very expensive compared to cloud storage </p>
 <p>Cloud storage was engineered to save millions of files for millions of users and will take some changes to your approach to understanding how it works. </p>
+<h2 id="activities">Activities</h2>
+<ul>
+<li>
+<p>Download and install the <a href="https://azure.microsoft.com/en-us/features/storage-explorer/">Azure Cloud Storage Explorer</a>  See the <strong>"Download now"</strong> button at the top of that page.  You may review the content of the page</p>
+</li>
+<li>
+<p>We did this in the first session, but if you want to work through this again for complete exercises in <a href="../../exercises/exercise_create_storage_account/">Creating Azure Cloud Storage Accounts</a> to create and use storage.  </p>
+</li>
+<li>
+<p>Exercise: <a href="../../exercises/storage_pricing_exercise/">Azure Storage Pricing</a> </p>
+</li>
+</ul>
+<!-- https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows?source=recommendations -->
+
+<h2 id="readings">Readings</h2>
 <ul>
 <li>
 <p><a href="../../topics/azure_cloud_storage_for_researchers.html">Azure Cloud Storage for Researchers</a> (Slides)</p>
 </li>
 <li>
-<p>Exercise: <a href="storage_pricing_exercise.md">Azure Storage Pricing</a> </p>
+<p>Not a bad, high-level introduction : <a href="https://www.edureka.co/blog/azure-storage-tutorial/">Edureka Azure Storage Tutorial</a>  (there are several pop-ups and ads, but it's a good level of of information )</p>
 </li>
-</ul>
-<h2 id="readings">Readings</h2>
-<ul>
-<li>Not a bad, high-level introduction: <a href="https://www.edureka.co/blog/azure-storage-tutorial/">Edureka Azure Storage Tutorial</a>  (there are several pop-ups and ads, but it's a good level of of information )</li>
 <li><a href="https://s3.us-east-2.amazonaws.com/a-book/storage.html">Storage as a Service</a> from "Cloud Computing for Science and Engineering"  </li>
 <li>Azure Documentation: <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction">Introduction to the core Azure Storage services
 </a>  </li>
@@ -1035,25 +1046,16 @@
 <p>optional <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs">Understanding block blobs, append blobs, and page blobs</a></p>
 </li>
 <li>
-<p><a href="https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview">Introduction to Azure managed disks</a>  This has more techincal background than necessary but could be very helpful.  </p>
+<p><a href="https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview">Introduction to Azure managed disks</a>  This has more technical background than necessary but could be very helpful.  </p>
 </li>
 </ul>
-<h2 id="activities">Activities</h2>
-<ul>
-<li>Download and install the <a href="https://azure.microsoft.com/en-us/features/storage-explorer/">Azure Cloud Storage Explorer</a>  See the <strong>"Download now"</strong> button at the top of that page.  You may review the content of the page</li>
-<li>complete exercises in <a href="exercise_creating_azure_cloud_storage.md">Creating Azure Cloud Storage Accounts</a> to create and use storage</li>
-</ul>
-<p><a href="https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows?source=recommendations">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows?source=recommendations</a></p>
 <h2 id="post-session-discussion-points">Post-session discussion points</h2>
 <p>There are several options when creating a storage account.   For example, what is the difference LRS vs GRS?  Is the documentation describing these clear or confusing?   What conditions might you consider LRS vs GRS?  Is it worth the cost?</p>
 <p>How would you share data with colleagues outside of MSU using cloud storage?    Where did you find the information for how to do that (Microsoft, Azure, Blog post, other)?   Let's say need to share 5gb of data.  After doing the pricing exercise above just for storage, what are the costs for each upload and download of 5gb?  Does it make a difference if it's Blob or File storage?</p>
-<h2 id="optional-activities">Optional Activities:</h2>
+<h2 id="activities_1">Activities:</h2>
 <p>The following two activities walk through attaching Azure files to a VM so you can use it just like any other disk.   This is only one method for moving data to/from cloud storage to your VM, but it does not require changing your program code. </p>
 <p><strong>For Windows Users: Using File Storage with Windows VM</strong> </p>
-<p><a href="https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows">Microsoft Tutorial: Create an SMB Azure file share and connect it to a Windows VM using the Azure portal</a></p>
-<p>Notes:
-- The tutorial has you create a storage account, but you can re-use the one you've already created (and change the names), or follow the tutorial and create another one. <br />
-- Not all versions of Windows can use this.  For much more detail, see the Azure documentation page <a href="https://learn.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows">"Mount SMB Azure file share on Windows"</a></p>
+<p><a href="../../exercises/exercise_windows_filestorage/">Create an SMB Azure file share and connect it to a Windows VM using the Azure portal</a></p>
 <p><strong>For Linux Users: Mounting File Storage with Linux VMs using NFS</strong></p>
 <p><a href="https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linux">Microsoft Tutorial: Create an NFS Azure file share and mount it on a Linux VM using the Azure portal</a></p>
 <p><a href="https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-linux?tabs=smb311">How to mount Azure Files on Linux using SMB</a> </p>
@@ -1108,10 +1110,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking"], "search": "../../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.4e0fa4ba.min.js"></script>
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
   </body>
