@@ -38,8 +38,8 @@ Cloud storage was engineered to save millions of files for millions of users and
 - Azure Documentation: [Introduction to the core Azure Storage services
 ](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)  
 - [Table of Azure Storage Product Offerings](https://azure.microsoft.com/en-us/product-categories/storage/)
-- Optional: this is long (27 minutes) but a good basic introduction to Azure storage: <br>
-    [Azure Training: Explore Azure Storage services](https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/) ( free training from Microsoft Learn)
+- Optional: this is long (It says 46 minutes but it will probably take less time) but a good basic introduction to Azure storage: <br>
+    [Azure Training: Explore Azure Storage services](https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/) ( free training from Microsoft Learn)
 - optional [Understanding block blobs, append blobs, and page blobs](https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs)
 
 - [Introduction to Azure managed disks](https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview)  This has more technical background than necessary but could be very helpful.  
