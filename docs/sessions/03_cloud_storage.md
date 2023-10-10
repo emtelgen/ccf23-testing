@@ -71,9 +71,9 @@ Notes:
 [How to mount Azure Files on Linux using SMB](https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-linux?tabs=smb311) 
 
 Notes: 
-- SMB (invented by Microsoft for Windows) and [NFS](https://learn.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview) (invented by Sun Microsystems from Unix) are competing methods for attaching network storage.   Both were created for on-premise servers, but Azure Files storage brings this to the cloud.  
-- this tutorial uses command line, and requires an ssh connection to the VM you create.  
-- Knowledge of Linux systems (mount points, fstab, etc) required 
+1. SMB (invented by Microsoft for Windows) and [NFS](https://learn.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview) (invented by Sun Microsystems from Unix) are competing methods for attaching network storage.   Both were created for on-premise servers, but Azure Files storage brings this to the cloud.  
+1. this tutorial uses command line, and requires an ssh connection to the VM you create.  
+1. Knowledge of Linux systems (mount points, fstab, etc) required 
 
 
 **Optional: Python And Blob Storage**
