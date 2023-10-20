@@ -52,17 +52,13 @@ There are several options when creating a storage account.   For example, what i
 How would you share data with colleagues outside of MSU using cloud storage?    Where did you find the information for how to do that (Microsoft, Azure, Blog post, other)?   Let's say need to share 5gb of data.  After doing the pricing exercise above just for storage, what are the costs for each upload and download of 5gb?  Does it make a difference if it's Blob or File storage?
 
 
-## Optional Activities: 
+## Activities: 
 
 The following two activities walk through attaching Azure files to a VM so you can use it just like any other disk.   This is only one method for moving data to/from cloud storage to your VM, but it does not require changing your program code. 
 
 **For Windows Users: Using File Storage with Windows VM** 
 
-[Microsoft Tutorial: Create an SMB Azure file share and connect it to a Windows VM using the Azure portal](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows)
-
-Notes:
-- The tutorial has you create a storage account, but you can re-use the one you've already created (and change the names), or follow the tutorial and create another one.   
-- Not all versions of Windows can use this.  For much more detail, see the Azure documentation page ["Mount SMB Azure file share on Windows"](https://learn.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows)
+[Create an SMB Azure file share and connect it to a Windows VM using the Azure portal](../exercises/exercise_windows_filestorage.md)
 
 **For Linux Users: Mounting File Storage with Linux VMs using NFS**
 
