@@ -26,7 +26,7 @@ Cloud storage was engineered to save millions of files for millions of users and
 
 - Exercise: [Azure Storage Pricing](../exercises/storage_pricing_exercise.md) 
 
-<!-- https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows?source=recommendations -->
+- Exercise: [Create an SMB Azure file share and connect it to a Windows VM using the Azure portal]https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows]
 
 ## Readings
 
@@ -72,7 +72,7 @@ Notes:
 - Knowledge of Linux systems (mount points, fstab, etc) required 
 
 
-**Optional: Python And Blob Storage**
+  
 
 This describes an a different method for moving files to/from cloud storage: using code.   This does not require you to 'mount' the storage to your VM. 
 

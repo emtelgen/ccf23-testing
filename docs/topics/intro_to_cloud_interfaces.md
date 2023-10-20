@@ -13,11 +13,16 @@ Here is an [example web api URL for weather forecast](https://www.7timer.info/bi
 
 Very few researchers would ever use the REST api directly, instead would use the web interface or even better the command line or programming language interface which achieves the same goal with less work.  
 
-In Azure, everything you could possibly create is called a "resource:" a machine, a data service, a single network address.   The system to work with Azure resources is the "Azure Resource Manager" or ARM and the primary interface for the Resource Manager is their web (REST) api.    You may see references to resources in documentation and that means any web doo-dad. 
  
 ## Summary of Cloud Interfaces
 
 This summary is focused on Microsoft Azure, but the other cloud companies have similar concepts.   In addition to this guide, Chapter 1 of our text "Cloud Computing for Science and Engineering" has an excellent description and examples of these interfaces with examples from AWS.  See the section of that chapter titled "Accessing a cloud service" in https://s3.us-east-2.amazonaws.com/a-book/Orienting.html
+
+As we've discussed, in Azure, everything you could possibly create is called a "resource:" a machine, a data service, a single network address.   The system to work with Azure resources is the "Azure Resource Manager" (or ARM) and the primary interface for the Resource Manager is their web (REST) api.    However, anytime you work with an interface to Azure, you are working with the resource manager.  
+
+![Azure Resource Manager](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/media/overview/consistent-management-layer.png)
+
+For details about about the Microsoft Resource Manager, see their overview documentation: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview
 
 ### Graphical Web Interface
 

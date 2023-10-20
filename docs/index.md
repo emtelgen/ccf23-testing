@@ -64,15 +64,14 @@ Each approximately 2-week session consists of
 
 3. [Cloud Storage](./sessions/03_cloud_storage.md)
    * Meeting  **October 6, 3pm**
-   * Assignment/Exercise: [analyzing weather data in the cloud](./exercises/exercise_using_the_cloud_to_summarize_and_visualize_data.md)
-
-4. Databases and Data Analytics Systems on the Cloud for research    
+   
+4. Interfaces to build cloud resources
     * Meeting  **October 20, 3pm** 
-    * Exercises: Using SQL database for research data
+    * Assignment/Exercise: [analyzing weather data in the cloud](./exercises/exercise_using_the_cloud_to_summarize_and_visualize_data.md)
 
-5. Big Data Systems and the cloud
+5. Databases, Data Analytics Systems, and Big Data on the Cloud  
     * Meeting **November 3, 3pm**: 
-    * Exercise: Using R and Python on a databricks cluster 
+    * Exercise: Using SQL databases to store and summarize weather data.  
 
 6. Serverless Cloud Computing
     * Meeting **November 17, 3pm**
