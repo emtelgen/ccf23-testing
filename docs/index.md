@@ -49,34 +49,35 @@ Each approximately 2-week session consists of
  - follow up for week 2
 
 1. [Introduction](./sessions/01_introduction.md)
-   * Requirements: 
-      - September 4-8 Complete items in the Welcome email sent by Dr. Parvizi
-      - post to teams to say hello
-   * Meeting **September 8, 3pm STEM 3201**: 
-      - introduction to the cloud fellowship
-      - intro to Cloud/Computing and Azure
-   * Assignments: 
+    * Requirements: 
+         - September 4-8 Complete items in the Welcome email sent by Dr. Parvizi
+         - post to teams to say hello
+    * Meeting **September 8, 3pm STEM 3201**: 
+         - introduction to the cloud fellowship
+         - intro to Cloud/Computing and Azure
+    
     
 2. [How to Cloud](./sessions/02_how_to_cloud.md)
-   * Meeting **September 22, 3pm** 
-      - Azure Organization
-      - Creating and Using Virtual Machines
+      * Meeting **September 22, 3pm** 
+         - Azure Organization
+         - Creating and Using Virtual Machines
 
 3. [Cloud Storage](./sessions/03_cloud_storage.md)
-   * Meeting  **October 6, 3pm**
+      * Meeting  **October 6, 3pm**
    
 4. Interfaces to build cloud resources
-    * Meeting  **October 20, 3pm** 
-    * Assignment/Exercise: [analyzing weather data in the cloud](./exercises/exercise_using_the_cloud_to_summarize_and_visualize_data.md)
+      * Meeting  **October 20, 3pm** 
+      * Assignment/Exercise: [analyzing weather data in the cloud](./exercises/exercise_using_the_cloud_to_summarize_and_visualize_data.md)
 
 5. Databases, Data Analytics Systems, and Big Data on the Cloud  
-    * Meeting **November 3, 3pm**: 
-    * Exercise: Using SQL databases to store and summarize weather data.  
-
+      * Meeting **November 3, 3pm** 
+      * [Review Project Requirements and Specification](projects.md)
+      * Exercise: Running Notebook servers in the cloud for analyzing data. 
+      * Sessions [Big Data and the Cloud](sessions/05_big_data.md)
+       
 6. Serverless Cloud Computing
-    * Meeting **November 17, 3pm**
-    * [Review Project Requirements and Specification](projects.md)
-    * Assignment: email 1-2 sentences describing a project you may undertake by December 6
+      * Meeting **November 17, 3pm**
+      * Assignment: email 1-2 sentences describing a project you may undertake by December 6
 
 7. Azure AI Services
     * Meeting **December 1, 3pm**: 
