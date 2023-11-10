@@ -57,7 +57,6 @@ You can use the Azure portal to accomplish many if not not all of these tasks, e
 
 The due date will be discussed in the email but they are flexible.   
 
-    
 ## Hints
 
 Things you may find helpful when completing this exercise: 
